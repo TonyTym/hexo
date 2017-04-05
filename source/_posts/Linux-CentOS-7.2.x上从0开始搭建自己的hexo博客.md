@@ -103,7 +103,7 @@ cd 到根目录，执行 hexo s // 等同于执行 hexo server
 - 1、部署到github上
   + a、安装自动部署到github的插件
 ```bash
-npm install hexo-deployer-git —save
+cnpm install hexo-deployer-git --save
 ```
   + b、_config.yml中配置
 ```bash
