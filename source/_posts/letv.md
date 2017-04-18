@@ -34,9 +34,24 @@ categories:
 + 效果图：
 <img src="http://onm9ileaw.bkt.clouddn.com/letv/1.png">
 
-#### 2.form表单里输入框后支持按钮和tag && leInput支持复合型输入
+#### 2.form表单支持检测链接类型的输入框
 + 示例:
-<img src="http://onm9ileaw.bkt.clouddn.com/letv/2.png">
+```js
+var preObj = {
+    key: 'movie',
+    value: 'http://movie.le.com'
+};
+
+attributes:[
+{
+    prop: 'publishAddress',
+    label: '发布地址',
+    type: 'require_checkUrl',
+    placeholder: '页面URL',
+    style: 'width:370px;margin-right:10px;',
+    preLabel: preObj
+}]
+```
 + 效果图：
 <img src="http://onm9ileaw.bkt.clouddn.com/letv/3.png">
 
