@@ -1,0 +1,511 @@
+---
+title: lbz客户端与H5交互sdk
+categories: H5
+tags: 
+    - H5
+    - IOS
+    - Android
+    - sdk
+#description: 
+#date: 
+---
+
+lbz客户端与H5交互sdk定义文档
+<!-- more -->
+
+### 一、APP相关
+1.是否是APP环境
+H5调用示例：
+```js
+var env = LBZSdk.app.isAppEnv; // true | false
+```
+说明：此方法不需要客户端提供接口
+2.获取APP信息
+接口名：
+core.getAppInfo
+传入参数：
+function(info){}
+回调示例：
+```js
+{
+  name: '{String}', // 应用名称,如:AiQiYi,Letv
+  key: '{String}', // 应用对应的key，如：key123
+}
+```
+H5调用示例：
+```js
+LBZSdk.app.getInfo(function(info){
+  console.log(info.name);
+})
+```
+
+### 二、获取设备信息，网络状态
+1.获取设备信息
+接口名：
+core.getDeviceInfo
+传入参数：
+function(info){}
+回调示例：
+```js
+{
+  deviceId: '{String}', // 设备唯一标示符
+  name: '{String}',  // 设备名称 XiaoMi、Iphone
+  version: '{String}', // 系统版本 10.2
+  screen: { // 屏幕分辨率
+    width: '{Number}', // 宽
+    height: '{Number}' // 高
+  }
+}
+```
+H5调用示例：
+```js
+LBZSdk.device.getInfo(function(info){
+  console.log(info.deviceId);
+})
+```
+2.获取电量
+接口名：
+core.getPowerLevel
+传入参数：
+function(power){}
+回调示例：
+```js
+{
+  level: {Number} // 当前电量0-100
+}
+```
+H5调用示例：
+```js
+LBZSdk.device.getPower(function(power){
+  console.log(power.level);
+})
+```
+3.获取设备存储空间
+接口名：
+core.getSpaceSize
+传入参数：
+function(size){}
+回调示例：
+```js
+{
+  spaceSize: {Number}, // 字节 剩余存储空间大小
+  totalSize: {Number} // 字节 总存储空间大小
+}
+```
+H5调用示例：
+```js
+LBZSdk.device.getSpaceSize(function(size){
+  console.log(size.spaceSize);
+})
+```
+4.监听屏幕旋转
+接口名：
+core.onOrientationChange
+传入参数：
+function(net){}
+回调示例：
+```js
+{
+  orientation: '{String}', // 当前屏幕方向 landscape | portrait
+}
+```
+H5调用示例：
+```js
+LBZSdk.device.on('onOrientationChange', function(res){
+  console.log(res.orientation);
+})
+```
+5.获取网络
+接口名：
+core.getNetwork
+传入参数：
+function(net){}
+回调示例：
+```js
+{
+  type: '{String}',   // 2G|3G|4G|wifi|unknown|none 当前网络类型
+  operator: '{String}'  // CUCC（中国联通）|CMCC（中国移动）|CTCC（中国电信） 通信运营商
+}
+```
+H5调用示例：
+```js
+LBZSdk.network.getInfo(function(net){
+  console.log(net.type);
+})
+```
+6.监听网络
+接口名：
+core.onNetworkChange
+传入参数：
+function(net){}
+回调示例：
+```js
+{
+  now: '{String}', //2G|3G|4G|wifi|unknown|none 当前网络类型
+  pre: '{String}'  //2G|3G|4G|wifi|unknown|none 上次网络类型
+}
+```
+H5调用示例：
+```js
+LBZSdk.network.on('onNetworkChange', function(net){
+  console.log(net.now);
+})
+```
+
+### 三、登陆和用户
+1.获取登陆信息
+接口名：
+fun.isLogin
+传入参数：
+function(flag){}
+回调示例：
+```js
+{
+  login: {Boolean}, // 是否登陆 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.user.isLogin(function(flag){
+  console.log(flag);
+})
+```
+2.获取用户信息
+接口名：
+fun.getUserInfo
+传入参数：
+function(info){}
+回调示例：
+```js
+{
+  name: '{String}', // 用户名
+  nickname: '{String}', // 用户昵称
+  email: '{String}', // 邮箱
+  uid: '{String}', // uid
+  img: '{String}', // 用户头像
+  status: {Number} // 用户状态：0:正常 1:已禁用 ...
+}
+```
+H5调用示例：
+```js
+LBZSdk.user.getInfo(function(info){
+  console.log(info.name);
+})
+```
+说明：如果获取不到用户信息则返回为空{}
+3.登陆
+接口名：
+fun.userLogin
+传入参数：
+function(info){}
+回调示例：
+```js
+{
+  name: '{String}', // 用户名
+  nickname: '{String}', // 用户昵称
+  email: '{String}', // 邮箱
+  uid: '{String}', // uid
+  img: '{String}', // 用户头像
+  status: {Number} // 用户状态：0:正常 1:已禁用 ...
+}
+```
+H5调用示例：
+```js
+LBZSdk.user.login(function(info){
+  console.log(info.name);
+})
+```
+4.登出
+接口名：
+fun.userLogout
+传入参数：
+function(res){}
+回调示例：
+```js
+{
+  status: '{Boolean}' // 是否登出成功 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.user.logout(function(res){
+  console.log(res.status);
+})
+```
+5.监听登陆状态改变
+接口名：
+fun.onLoginChange
+传入参数：
+function(res){}
+回调示例：
+```js
+{
+  action: '{String}', // 动作名称（login | logout）
+  name: '{String}', // 用户名
+  nickname: '{String}', // 用户昵称
+  email: '{String}', // 邮箱
+  uid: '{String}', // uid
+  img: '{String}', // 用户头像
+  status: {Number} // 用户状态：0:正常 1:已禁用 ...
+}
+```
+H5调用示例：
+```js
+LBZSdk.user.on('onLoginChange', function(res){
+  console.log(res.action);
+})
+```
+说明：当action是logout时，其他字段为空
+
+### 四、客户端存取数据
+1.存储数据
+接口名：
+fun.setData
+传入参数：
+(key, value, function(res){})
+回调示例：
+```js
+{
+  status: {Boolean}, // 是否存储成功 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.data.setData('key', value, function(res){
+  if(res.status === false){
+    console.log('存储失败');
+  }
+})
+```
+2.读取数据
+接口名：
+fun.getData
+传入参数：
+(key, function(res){})
+回调示例：
+```js
+{
+  data: '{String}', // 数据信息，类型可以是String,Number,JSONString
+}
+```
+H5调用示例：
+```js
+LBZSdk.data.getData('key', function(res){
+  console.log('获取的数据为：', res.data);
+})
+```
+说明：如果获取不到数据则返回结果里data为空
+
+### 五、webView相关
+1.打开新窗口
+接口名：
+fun.openWebview
+传入参数：
+(url, type)
+说明：type 可选"new"和"cur"，指定是否需要新开webview，默认"cur"
+回调示例：
+```js
+无回调
+```
+H5调用示例：
+```js
+LBZSdk.win.open('http://www.le.com', 'new');
+```
+2.窗口前进一页
+接口名：
+fun.WebviewForward
+传入参数：
+function(res){}
+回调示例：
+```js
+{
+  status: '{Boolean}', // 前进结果 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.win.forward(function(res){
+  console.log(res.status);
+})
+```
+说明：当webview里没有下一页的时候status返回false
+
+3.窗口后退一页
+接口名：
+fun.WebviewBack
+传入参数：
+function(res){}
+回调示例：
+```js
+{
+  status: '{Boolean}', // 后退结果 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.win.back(function(res){
+  console.log(res.status);
+})
+```
+说明：当webview里没有上一页的时候status返回false
+
+4.调起APP原生页面
+接口名：
+fun.openNative
+传入参数：
+(name)
+回调示例：
+```js
+无回调
+```
+H5调用示例：
+```js
+LBZSdk.win.openNative('user_center');
+```
+说明：传入的name需要提前知道
+
+### 六、弹框
+1.打开弹框
+接口名：
+fun.Alert
+传入参数：
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  title: '{String}', // 标题
+  content: '{String}}', // 内容
+  buttons: '{Array}' // 显示按钮的文字，最多两个，如：['确定'] 或 ['Yes'] 或 ['是','否']
+}
+```
+回调示例：
+```js
+{
+  btn: '{String}' // 用户点击的按钮  ok | cancel
+}
+```
+H5调用示例：
+```js
+LBZSdk.alert.open({title: '显示标题', content: '显示的内容', buttons: ['好的','取消']}, function(res){
+  if(res.btn === 'cancel'){
+    console.log('用户点击了取消按钮');
+  } else {
+    console.log('用户点击了确定按钮');
+  }
+});
+```
+说明：1.如果传入的参数中buttons只有一个，则默认显示"确认"按钮
+     2.如果之前已有一个弹出框了，则覆盖之前的
+2.toast
+接口名：
+fun.Toast
+传入参数：
+(opt)
+opt示例如下：
+```js
+{
+  dur: '{Number}', // 显示时长,单位：毫秒,默认2000 如：2500
+  pos: '{String}' // 显示位置， left | right | top | bottom | center 默认"center"
+}
+```
+回调示例：
+```js
+无回调
+```
+H5调用示例：
+```js
+LBZSdk.alert.toast({dur: 3000, pos: 'bottom'})
+```
+
+### 七、分享
+1.打开分享弹框
+接口名：
+fun.openShare
+传入参数：
+(opt)
+opt示例如下：
+```js
+{
+  channel: '{Array}' // 需要分享的渠道，如:['wxTimeline','wxFriend','weibo']
+}
+```
+回调示例：
+```js
+无回调
+```
+H5调用示例：
+```js
+LBZSdk.share.open({channel: ['wxTimeline','wxFriend','weibo']});
+```
+说明：1.一期只支持三种渠道分享：微信朋友圈，微信好友，新浪微博
+2.toast
+接口名：
+fun.callShare
+传入参数：
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  channelName: 'wxFriend', //分享渠道：weibo|wxFriend|wxTimeline
+  title: '', // 自定义分享标题
+  desc: '', // 自定义分享内容
+  link: '', // 自定义分享链接
+  imgUrl: '', // 自定义分享图标
+}
+```
+回调示例：
+```js
+{
+  code: {Number} // 分享结果code，需具体定义，如：200表示分享成功，400表示用户取消分享等...
+}
+```
+H5调用示例：
+```js
+LBZSdk.share.callShare({
+  channelName: 'wxFriend',
+  title: '自定义分享标题',
+  desc: '自定义分享内容',
+  link: '自定义分享链接',
+  imgUrl: '自定义分享图标'
+}, function(res){
+  if(res.code === 200){
+    console.log('分享成功了，恭喜');
+  }
+})
+```
+说明：传入的参数可能需要根据不同的渠道差异化
+
+### 八、支付
+1.调用支付
+接口名：
+fun.pay
+传入参数：
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  orderId: '{String}', // 需要支付的订单号
+  channel: '{String}', // 支付渠道 weixin | alipay | applepay
+  amount: {Number} // 需要支付的金额，仅传给客户端做验证用，最后实际支付金额需要客户端调用后端接口查询
+}
+```
+回调示例：
+```js
+{
+  code: {Number} // 支付结果code,需具体定义，如：200表示支付成功，400表示用户取消支付，401表示传入的金额与订单实际金额不符等...
+}
+```
+H5调用示例：
+```js
+LBZSdk.pay.payOrder({orderId: 'abcd1234', channel: 'weixin', amount: 12.3}, function(res){
+  if(res.code === 200){
+    console.log('支付成功');
+  } else if(res.code === 400){
+    console.log('用户取消支付');
+  } else {
+    其他情况需具体定义
+  }
+});
+```
+
++ 目前能想到的接口文档大致如此，做的过程中会有删改
