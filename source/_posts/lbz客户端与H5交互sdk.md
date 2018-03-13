@@ -14,13 +14,13 @@ lbz客户端与H5交互sdk定义文档
 <!-- more -->
 
 ### 一、APP相关
-1.是否是APP环境
+##### 1.是否是APP环境
 H5调用示例：
 ```js
 var env = LBZSdk.app.isAppEnv; // true | false
 ```
 说明：此方法不需要客户端提供接口
-2.获取APP信息
+##### 2.获取APP信息
 接口名：
 core.getAppInfo
 传入参数：
@@ -40,7 +40,7 @@ LBZSdk.app.getInfo(function(info){
 ```
 
 ### 二、获取设备信息，网络状态
-1.获取设备信息
+##### 1.获取设备信息
 接口名：
 core.getDeviceInfo
 传入参数：
@@ -63,7 +63,7 @@ LBZSdk.device.getInfo(function(info){
   console.log(info.deviceId);
 })
 ```
-2.获取电量
+##### 2.获取电量
 接口名：
 core.getPowerLevel
 传入参数：
@@ -80,7 +80,7 @@ LBZSdk.device.getPower(function(power){
   console.log(power.level);
 })
 ```
-3.获取设备存储空间
+##### 3.获取设备存储空间
 接口名：
 core.getSpaceSize
 传入参数：
@@ -98,7 +98,7 @@ LBZSdk.device.getSpaceSize(function(size){
   console.log(size.spaceSize);
 })
 ```
-4.监听屏幕旋转
+##### 4.监听屏幕旋转
 接口名：
 core.onOrientationChange
 传入参数：
@@ -115,7 +115,7 @@ LBZSdk.device.on('onOrientationChange', function(res){
   console.log(res.orientation);
 })
 ```
-5.获取网络
+##### 5.获取网络
 接口名：
 core.getNetwork
 传入参数：
@@ -133,7 +133,7 @@ LBZSdk.network.getInfo(function(net){
   console.log(net.type);
 })
 ```
-6.监听网络
+##### 6.监听网络
 接口名：
 core.onNetworkChange
 传入参数：
@@ -153,7 +153,7 @@ LBZSdk.network.on('onNetworkChange', function(net){
 ```
 
 ### 三、登陆和用户
-1.获取登陆信息
+##### 1.获取登陆信息
 接口名：
 fun.isLogin
 传入参数：
@@ -170,7 +170,7 @@ LBZSdk.user.isLogin(function(flag){
   console.log(flag);
 })
 ```
-2.获取用户信息
+##### 2.获取用户信息
 接口名：
 fun.getUserInfo
 传入参数：
@@ -193,7 +193,7 @@ LBZSdk.user.getInfo(function(info){
 })
 ```
 说明：如果获取不到用户信息则返回为空{}
-3.登陆
+##### 3.登陆
 接口名：
 fun.userLogin
 传入参数：
@@ -215,7 +215,7 @@ LBZSdk.user.login(function(info){
   console.log(info.name);
 })
 ```
-4.登出
+##### 4.登出
 接口名：
 fun.userLogout
 传入参数：
@@ -232,7 +232,7 @@ LBZSdk.user.logout(function(res){
   console.log(res.status);
 })
 ```
-5.监听登陆状态改变
+##### 5.监听登陆状态改变
 接口名：
 fun.onLoginChange
 传入参数：
@@ -258,7 +258,7 @@ LBZSdk.user.on('onLoginChange', function(res){
 说明：当action是logout时，其他字段为空
 
 ### 四、客户端存取数据
-1.存储数据
+##### 1.存储数据
 接口名：
 fun.setData
 传入参数：
@@ -277,7 +277,7 @@ LBZSdk.data.setData('key', value, function(res){
   }
 })
 ```
-2.读取数据
+##### 2.读取数据
 接口名：
 fun.getData
 传入参数：
@@ -297,7 +297,7 @@ LBZSdk.data.getData('key', function(res){
 说明：如果获取不到数据则返回结果里data为空
 
 ### 五、webView相关
-1.打开新窗口
+##### 1.打开新窗口
 接口名：
 fun.openWebview
 传入参数：
@@ -311,7 +311,7 @@ H5调用示例：
 ```js
 LBZSdk.win.open('http://www.le.com', 'new');
 ```
-2.窗口前进一页
+##### 2.窗口前进一页
 接口名：
 fun.WebviewForward
 传入参数：
@@ -330,7 +330,7 @@ LBZSdk.win.forward(function(res){
 ```
 说明：当webview里没有下一页的时候status返回false
 
-3.窗口后退一页
+##### 3.窗口后退一页
 接口名：
 fun.WebviewBack
 传入参数：
@@ -349,7 +349,7 @@ LBZSdk.win.back(function(res){
 ```
 说明：当webview里没有上一页的时候status返回false
 
-4.调起APP原生页面
+##### 4.调起APP原生页面
 接口名：
 fun.openNative
 传入参数：
@@ -365,7 +365,7 @@ LBZSdk.win.openNative('user_center');
 说明：传入的name需要提前知道
 
 ### 六、弹框
-1.打开弹框
+##### 1.打开弹框
 接口名：
 fun.Alert
 传入参数：
@@ -396,7 +396,7 @@ LBZSdk.alert.open({title: '显示标题', content: '显示的内容', buttons: [
 ```
 说明：1.如果传入的参数中buttons只有一个，则默认显示"确认"按钮
      2.如果之前已有一个弹出框了，则覆盖之前的
-2.toast
+##### 2.toast
 接口名：
 fun.Toast
 传入参数：
@@ -418,7 +418,7 @@ LBZSdk.alert.toast({dur: 3000, pos: 'bottom'})
 ```
 
 ### 七、分享
-1.打开分享弹框
+##### 1.打开分享弹框
 接口名：
 fun.openShare
 传入参数：
@@ -438,7 +438,7 @@ H5调用示例：
 LBZSdk.share.open({channel: ['wxTimeline','wxFriend','weibo']});
 ```
 说明：1.一期只支持三种渠道分享：微信朋友圈，微信好友，新浪微博
-2.toast
+##### 2.toast
 接口名：
 fun.callShare
 传入参数：
@@ -476,7 +476,7 @@ LBZSdk.share.callShare({
 说明：传入的参数可能需要根据不同的渠道差异化
 
 ### 八、支付
-1.调用支付
+##### 1.调用支付
 接口名：
 fun.pay
 传入参数：
