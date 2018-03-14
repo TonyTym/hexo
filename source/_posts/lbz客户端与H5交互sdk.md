@@ -24,7 +24,7 @@ var env = LBZSdk.app.isAppEnv; // true | false
 接口名：
 core.getAppInfo
 传入参数：
-function(info){}
+(function(info){})
 回调示例：
 ```js
 {
@@ -44,7 +44,7 @@ LBZSdk.app.getInfo(function(info){
 接口名：
 core.getDeviceInfo
 传入参数：
-function(info){}
+(function(info){})
 回调示例：
 ```js
 {
@@ -67,7 +67,7 @@ LBZSdk.device.getInfo(function(info){
 接口名：
 core.getPowerLevel
 传入参数：
-function(power){}
+(function(power){})
 回调示例：
 ```js
 {
@@ -84,7 +84,7 @@ LBZSdk.device.getPower(function(power){
 接口名：
 core.getSpaceSize
 传入参数：
-function(size){}
+(function(size){})
 回调示例：
 ```js
 {
@@ -102,7 +102,7 @@ LBZSdk.device.getSpaceSize(function(size){
 接口名：
 core.onOrientationChange
 传入参数：
-function(net){}
+(function(net){})
 回调示例：
 ```js
 {
@@ -119,7 +119,7 @@ LBZSdk.device.on('onOrientationChange', function(res){
 接口名：
 core.getNetwork
 传入参数：
-function(net){}
+(function(net){})
 回调示例：
 ```js
 {
@@ -137,7 +137,7 @@ LBZSdk.network.getInfo(function(net){
 接口名：
 core.onNetworkChange
 传入参数：
-function(net){}
+(function(net){})
 回调示例：
 ```js
 {
@@ -157,7 +157,7 @@ LBZSdk.network.on('onNetworkChange', function(net){
 接口名：
 fun.isLogin
 传入参数：
-function(flag){}
+(function(flag){})
 回调示例：
 ```js
 {
@@ -174,7 +174,7 @@ LBZSdk.user.isLogin(function(flag){
 接口名：
 fun.getUserInfo
 传入参数：
-function(info){}
+(function(info){})
 回调示例：
 ```js
 {
@@ -197,7 +197,7 @@ LBZSdk.user.getInfo(function(info){
 接口名：
 fun.userLogin
 传入参数：
-function(info){}
+(function(info){})
 回调示例：
 ```js
 {
@@ -219,7 +219,7 @@ LBZSdk.user.login(function(info){
 接口名：
 fun.userLogout
 传入参数：
-function(res){}
+(function(res){})
 回调示例：
 ```js
 {
@@ -236,7 +236,7 @@ LBZSdk.user.logout(function(res){
 接口名：
 fun.onLoginChange
 传入参数：
-function(res){}
+(function(res){})
 回调示例：
 ```js
 {
@@ -262,7 +262,14 @@ LBZSdk.user.on('onLoginChange', function(res){
 接口名：
 fun.setData
 传入参数：
-(key, value, function(res){})
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  key: '{String}', // 存储的key
+  value: '{String}}' // 存储的内容
+}
+```
 回调示例：
 ```js
 {
@@ -271,7 +278,7 @@ fun.setData
 ```
 H5调用示例：
 ```js
-LBZSdk.data.setData('key', value, function(res){
+LBZSdk.data.setData({key: 'abc', value: '123'}, function(res){
   if(res.status === false){
     console.log('存储失败');
   }
@@ -281,7 +288,13 @@ LBZSdk.data.setData('key', value, function(res){
 接口名：
 fun.getData
 传入参数：
-(key, function(res){})
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  key: '{String}' // 获取的key
+}
+```
 回调示例：
 ```js
 {
@@ -290,7 +303,7 @@ fun.getData
 ```
 H5调用示例：
 ```js
-LBZSdk.data.getData('key', function(res){
+LBZSdk.data.getData({key: 'abc'}}, function(res){
   console.log('获取的数据为：', res.data);
 })
 ```
@@ -301,7 +314,14 @@ LBZSdk.data.getData('key', function(res){
 接口名：
 fun.openWebview
 传入参数：
-(url, type)
+(opt)
+opt示例如下：
+```js
+{
+  url: '{String}', // 打开的链接
+  type: '{String}' // 新webview打开还是当前
+}
+```
 说明：type 可选"new"和"cur"，指定是否需要新开webview，默认"cur"
 回调示例：
 ```js
@@ -309,13 +329,13 @@ fun.openWebview
 ```
 H5调用示例：
 ```js
-LBZSdk.win.open('http://www.le.com', 'new');
+LBZSdk.win.open({url: 'http://www.le.com', type: 'new'});
 ```
 ##### 2.窗口前进一页
 接口名：
 fun.WebviewForward
 传入参数：
-function(res){}
+(function(res){})
 回调示例：
 ```js
 {
@@ -334,7 +354,7 @@ LBZSdk.win.forward(function(res){
 接口名：
 fun.WebviewBack
 传入参数：
-function(res){}
+(function(res){})
 回调示例：
 ```js
 {
@@ -353,16 +373,22 @@ LBZSdk.win.back(function(res){
 接口名：
 fun.openNative
 传入参数：
-(name)
+(opt)
+opt示例如下：
+```js
+{
+  url: '{String}' // APP内页面地址
+}
+```
 回调示例：
 ```js
 无回调
 ```
 H5调用示例：
 ```js
-LBZSdk.win.openNative('user_center');
+LBZSdk.win.openNative({url: 'user_center'});
 ```
-说明：传入的name需要提前知道
+说明：传入的url需要提前知道
 
 ### 六、弹框
 ##### 1.打开弹框
@@ -438,7 +464,7 @@ H5调用示例：
 LBZSdk.share.open({channel: ['wxTimeline','wxFriend','weibo']});
 ```
 说明：1.一期只支持三种渠道分享：微信朋友圈，微信好友，新浪微博
-##### 2.toast
+##### 2.分享
 接口名：
 fun.callShare
 传入参数：
