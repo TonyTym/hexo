@@ -115,7 +115,30 @@ LBZSdk.device.on('onOrientationChange', function(res){
   console.log(res.orientation);
 })
 ```
-##### 5.获取网络
+##### 5.设置屏幕方向
+接口名：
+core.setOrientation
+传入参数：
+(opt, function(net){})
+opt参数示例：
+```js
+{
+  "orientation": "landscape" // 屏幕方向 landscape | portrait | auto
+}
+```
+回调示例：
+```js
+{
+  status: {Boolean}, // true | false 是否设置成功
+}
+```
+H5调用示例：
+```js
+LBZSdk.device.setOrientation({"orientation": "landscape"}, function(res){
+  console.log(res.orientation);
+})
+```
+##### 6.获取网络
 接口名：
 core.getNetwork
 传入参数：
@@ -133,7 +156,7 @@ LBZSdk.network.getInfo(function(net){
   console.log(net.type);
 })
 ```
-##### 6.监听网络
+##### 7.监听网络
 接口名：
 core.onNetworkChange
 传入参数：
