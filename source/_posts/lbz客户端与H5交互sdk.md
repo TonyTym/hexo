@@ -336,6 +336,48 @@ LBZSdk.data.getData({key: 'abc'}}, function(res){
 ```
 说明：如果获取不到数据则返回结果里data为空
 
+#### 3.复制到系统剪切板
+接口名：
+fun.copyToClipboard
+传入参数：
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  data: 'abc123'
+}
+```
+回调示例：
+```js
+{
+  status: {Boolean}, // 是否复制成功  true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.data.copyToClipboard({key: 'abc'}}, function(res){
+  console.log('获取的数据为：', res.status);
+})
+```
+
+#### 4.读取系统剪切板内容
+接口名：
+fun.getClipboard
+传入参数：
+(function(res){})
+回调示例：
+```js
+{
+  data: '{String}', // 剪切板数据，类型可以是String,Number,JSONString
+}
+```
+H5调用示例：
+```js
+LBZSdk.data.getClipboard(function(res){
+  console.log('获取的数据为：', res.data);
+})
+```
+说明：如果获取不到数据则返回结果里data为空
 
 ### 五、webView相关
 #### 1.打开新窗口
