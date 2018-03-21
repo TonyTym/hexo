@@ -40,6 +40,29 @@ LBZSdk.app.getInfo(function(info){
 ```
 说明：回调字段可能有修改
 
+#### 3.是否安装某个应用
+接口名：
+core.hasInstalled
+传入参数：
+(opt, function(info){})
+opt参数示例：
+```js
+{
+  "name": "xxx" // 需要判断的应用包名，具体的使用时候跟端定
+}
+```
+回调示例：
+```js
+{
+  status: {Boolean} // 是否已安装  true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.app.hasInstalled({name: 'xxx'},function(res){
+  console.log(res.status);
+})
+```
 
 ### 二、获取设备信息，网络状态
 #### 1.获取设备信息
@@ -241,47 +264,47 @@ LBZSdk.user.login(function(info){
   console.log(info.name);
 })
 ```
-#### 4.登出
-接口名：
-fun.userLogout
-传入参数：
-(function(res){})
-回调示例：
+~~#### 4.登出（废弃）~~
+~~接口名：~~
+~~fun.userLogout~~
+~~传入参数：~~
+~~(function(res){})~~
+~~回调示例：~~
 ```js
-{
-  status: '{Boolean}' // 是否登出成功 true | false
-}
+~~{~~
+~~  status: '{Boolean}' // 是否登出成功 true | false~~
+~~}~~
 ```
-H5调用示例：
+~~H5调用示例：~~
 ```js
-LBZSdk.user.logout(function(res){
-  console.log(res.status);
-})
+~~LBZSdk.user.logout(function(res){~~
+~~  console.log(res.status);~~
+~~})~~
 ```
-#### 5.监听登陆状态改变
-接口名：
-fun.onLoginChange
-传入参数：
-(function(res){})
-回调示例：
+~~#### 5.监听登陆状态改变（废弃）~~
+~~接口名：~~
+~~fun.onLoginChange~~
+~~传入参数：~~
+~~(function(res){})~~
+~~回调示例：~~
 ```js
-{
-  action: '{String}', // 动作名称（login | logout）
-  name: '{String}', // 用户名
-  nickname: '{String}', // 用户昵称
-  email: '{String}', // 邮箱
-  uid: '{String}', // uid
-  img: '{String}', // 用户头像
-  status: {Number} // 用户状态：0:正常 1:已禁用 ...
-}
+~~{~~
+~~  action: '{String}', // 动作名称（login | logout）~~
+~~  name: '{String}', // 用户名~~
+~~  nickname: '{String}', // 用户昵称~~
+~~  email: '{String}', // 邮箱~~
+~~  uid: '{String}', // uid~~
+~~  img: '{String}', // 用户头像~~
+~~  status: {Number} // 用户状态：0:正常 1:已禁用 ...~~
+~~}~~
 ```
-H5调用示例：
+~~H5调用示例：~~
 ```js
-LBZSdk.user.on('onLoginChange', function(res){
-  console.log(res.action);
-})
+~~LBZSdk.user.on('onLoginChange', function(res){~~
+~~  console.log(res.action);~~
+~~})~~
 ```
-说明：当action是logout时，其他字段为空
+~~说明：当action是logout时，其他字段为空~~
 
 
 ### 四、客户端存取数据
@@ -502,7 +525,8 @@ opt示例如下：
 ```js
 {
   dur: '{Number}', // 显示时长,单位：毫秒,默认2000 如：2500
-  pos: '{String}' // 显示位置， left | right | top | bottom | center 默认"center"
+  pos: {Boolean},  // 显示位置， 0 | 1 | 2 | 3 | 4 （0:center,1:left,2:right,3:top,4:bottom）
+  content: {String} // 显示的内容，其中 \n 为换行符
 }
 ```
 回调示例：
@@ -511,7 +535,7 @@ opt示例如下：
 ```
 H5调用示例：
 ```js
-LBZSdk.alert.toast({dur: 3000, pos: 'bottom'})
+LBZSdk.alert.toast({dur: 3000, pos: 'bottom', content: '分享成功\n获得20金币'})
 ```
 
 
@@ -520,58 +544,72 @@ LBZSdk.alert.toast({dur: 3000, pos: 'bottom'})
 接口名：
 fun.openShare
 传入参数：
-(opt)
+(opt, function(){})
 opt示例如下：
 ```js
 {
-  channel: '{Array}' // 需要分享的渠道，如:['wxTimeline','wxFriend','weibo']
-}
-```
-回调示例：
-```js
-无回调
-```
-H5调用示例：
-```js
-LBZSdk.share.open({channel: ['wxTimeline','wxFriend','weibo']});
-```
-说明：1.一期只支持三种渠道分享：微信朋友圈，微信好友，新浪微博
-#### 2.分享
-接口名：
-fun.callShare
-传入参数：
-(opt, function(res){})
-opt示例如下：
-```js
-{
-  channelName: 'wxFriend', //分享渠道：weibo|wxFriend|wxTimeline
   title: '', // 自定义分享标题
   desc: '', // 自定义分享内容
   link: '', // 自定义分享链接
-  imgUrl: '', // 自定义分享图标
+  imgUrl: '' // 自定义分享图标
 }
 ```
 回调示例：
 ```js
 {
-  code: {Number} // 分享结果code，需具体定义，如：200表示分享成功，400表示用户取消分享等...
+  code: {Number}, // 分享状态码（200表示成功，400表示用户取消等，具体定义待确定）
+  channel: {String} // 用户点击的分享渠道 （一期共三种 wxTimeline | wxFriend | weibo）
 }
 ```
 H5调用示例：
 ```js
-LBZSdk.share.callShare({
-  channelName: 'wxFriend',
+LBZSdk.share.open({
   title: '自定义分享标题',
   desc: '自定义分享内容',
   link: '自定义分享链接',
   imgUrl: '自定义分享图标'
 }, function(res){
-  if(res.code === 200){
-    console.log('分享成功了，恭喜');
-  }
-})
+  console.log('分享渠道：' + res.channel + ';分享结果：' + res.code);
+});
 ```
-说明：传入的参数可能需要根据不同的渠道差异化
+说明：1.一期只支持三种渠道分享：微信朋友圈，微信好友，新浪微博
+
+~~#### 2.分享（废弃）~~
+~~接口名：~~
+~~fun.callShare~~
+~~传入参数：~~
+~~(opt, function(res){})~~
+~~opt示例如下：~~
+```js
+~~{~~
+~~  channelName: 'wxFriend', //分享渠道：weibo|wxFriend|wxTimeline~~
+~~  title: '', // 自定义分享标题~~
+~~  desc: '', // 自定义分享内容~~
+~~  link: '', // 自定义分享链接~~
+~~  imgUrl: '', // 自定义分享图标~~
+~~}~~
+```
+~~回调示例：~~
+```js
+~~{~~
+~~  code: {Number} // 分享结果code，需具体定义，如：200表示分享成功，400表示用户取消分享等...~~
+~~}~~
+```
+~~H5调用示例：~~
+```js
+~~LBZSdk.share.callShare({~~
+~~  channelName: 'wxFriend',~~
+~~  title: '自定义分享标题',~~
+~~  desc: '自定义分享内容',~~
+~~  link: '自定义分享链接',~~
+~~  imgUrl: '自定义分享图标'~~
+~~}, function(res){~~
+~~  if(res.code === 200){~~
+~~    console.log('分享成功了，恭喜');~~
+~~  }~~
+~~})~~
+```
+~~说明：传入的参数可能需要根据不同的渠道差异化~~
 
 
 ### 八、支付
@@ -583,9 +621,8 @@ fun.pay
 opt示例如下：
 ```js
 {
-  orderId: '{String}', // 需要支付的订单号
-  channel: '{String}', // 支付渠道 weixin | alipay | applepay
-  amount: {Number} // 需要支付的金额，仅传给客户端做验证用，最后实际支付金额需要客户端调用后端接口查询
+  goodsId: '{String}', // 商品id
+  channel: '{String}' // 支付渠道 weixin | alipay | applepay
 }
 ```
 回调示例：
@@ -596,7 +633,7 @@ opt示例如下：
 ```
 H5调用示例：
 ```js
-LBZSdk.pay.payOrder({orderId: 'abcd1234', channel: 'weixin', amount: 12.3}, function(res){
+LBZSdk.pay.payOrder({orderId: 'abcd1234', channel: 'weixin'}, function(res){
   if(res.code === 200){
     console.log('支付成功');
   } else if(res.code === 400){
@@ -604,6 +641,25 @@ LBZSdk.pay.payOrder({orderId: 'abcd1234', channel: 'weixin', amount: 12.3}, func
   } else {
     其他情况需具体定义
   }
+});
+```
+
+### 九、缓存
+#### 1.更新缓存
+接口名：
+fun.updateCache
+传入参数：
+(function(res){})
+回调示例：
+```js
+{
+  status: {Boolean} // 是否更新成功 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.cache.updateCache(function(res){
+  console.log(res.status);
 });
 ```
 
