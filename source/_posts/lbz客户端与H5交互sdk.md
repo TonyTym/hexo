@@ -663,4 +663,35 @@ LBZSdk.cache.updateCache(function(res){
 });
 ```
 
+### 十、日期、时间选择
+#### 1.日历选择
+接口名：
+fun.selectDate
+传入参数：
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  "minDate": "2016-01-03", // 结束日期，当type为"time"时不需要
+  "maxDate": "2019-11-12", // 开始日期，当type为"time"时不需要
+  "type": "date" // 可选 date | time | ym  ==>  日期 | 时间 | 年月
+}
+```
+回调示例：
+```js
+{
+  value: {Array} // 选择的时间数组（如["2018","02","23"]、["2018","02"]、["17","23"]），如果用户点取消不会进入该回调
+}
+```
+H5调用示例：
+```js
+LBZSdk.calendar.select({
+  "minDate": "2016-01-03",
+  "maxDate": "2019-11-12",
+  "type": "date"
+}, function(res){
+  console.log(res.value);
+});
+```
+
 + 目前能想到的接口文档大致如此，做的过程中会有删改
