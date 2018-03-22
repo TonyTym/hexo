@@ -342,18 +342,18 @@ fun.getData
 opt示例如下：
 ```js
 {
-  key: '{String}' // 获取的key
+  key: ["abc", "123"] // 获取的key数组
 }
 ```
 回调示例：
 ```js
 {
-  data: '{String}', // 数据信息，类型可以是String,Number,JSONString
+  data: ['111', '222'], // 数据信息数组，单个元素类型可以是String,Number,JSONString
 }
 ```
 H5调用示例：
 ```js
-LBZSdk.data.getData({key: 'abc'}}, function(res){
+LBZSdk.data.getData({key: ["abc", "123"]}}, function(res){
   console.log('获取的数据为：', res.data);
 })
 ```
@@ -525,7 +525,7 @@ opt示例如下：
 ```js
 {
   dur: '{Number}', // 显示时长,单位：毫秒,默认2000 如：2500
-  pos: {Boolean},  // 显示位置， 0 | 1 | 2 | 3 | 4 （0:center,1:left,2:right,3:top,4:bottom）
+  pos: {Number},  // 显示位置， 0 | 1 | 2 | 3 | 4 （0:center,1:left,2:right,3:top,4:bottom）
   content: {String} // 显示的内容，其中 \n 为换行符
 }
 ```
@@ -535,7 +535,7 @@ opt示例如下：
 ```
 H5调用示例：
 ```js
-LBZSdk.alert.toast({dur: 3000, pos: 'bottom', content: '分享成功\n获得20金币'})
+LBZSdk.alert.toast({dur: 3000, pos: 0, content: '分享成功\n获得20金币'})
 ```
 
 
