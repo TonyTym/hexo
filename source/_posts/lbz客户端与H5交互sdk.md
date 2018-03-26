@@ -485,7 +485,7 @@ LBZSdk.win.openNative({url: 'user_center'});
 
 
 ### 六、弹框
-#### 1.打开弹框
+#### 1.打开弹框（优先做其他的）
 接口名：
 fun.Alert
 传入参数：
@@ -633,7 +633,7 @@ opt示例如下：
 ```
 H5调用示例：
 ```js
-LBZSdk.pay.payOrder({orderId: 'abcd1234', channel: 'weixin'}, function(res){
+LBZSdk.pay.payOrder({goodsId: 'abcd1234', channel: 'weixin'}, function(res){
   if(res.code === 200){
     console.log('支付成功');
   } else if(res.code === 400){
