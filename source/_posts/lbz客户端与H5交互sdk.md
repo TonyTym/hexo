@@ -189,8 +189,7 @@ core.onNetworkChange
 回调示例：
 ```js
 {
-  now: '{String}', //2G|3G|4G|wifi|unknown|none 当前网络类型
-  pre: '{String}'  //2G|3G|4G|wifi|unknown|none 上次网络类型
+  now: '{String}' //2G|3G|4G|wifi|unknown|none 当前网络类型
 }
 ```
 H5调用示例：
@@ -462,7 +461,7 @@ LBZSdk.win.back(function(res){
 ```
 说明：当webview里没有上一页的时候status返回false
 
-#### 4.调起APP原生页面
+#### 4.调起APP原生页面（可能不需要这个接口）
 接口名：
 fun.openNative
 传入参数：
@@ -485,7 +484,7 @@ LBZSdk.win.openNative({url: 'user_center'});
 
 
 ### 六、弹框
-#### 1.打开弹框（优先做其他的）
+#### 1.打开弹框
 接口名：
 fun.Alert
 传入参数：
@@ -574,7 +573,7 @@ LBZSdk.share.open({
 ```
 说明：1.一期只支持三种渠道分享：微信朋友圈，微信好友，新浪微博
 
-~~#### 2.分享（废弃）~~
+~~#### 2.分享（废弃,用接口1）~~
 ~~接口名：~~
 ~~fun.callShare~~
 ~~传入参数：~~
