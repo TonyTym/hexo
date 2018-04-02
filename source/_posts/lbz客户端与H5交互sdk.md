@@ -48,7 +48,7 @@ core.hasInstalled
 opt参数示例：
 ```js
 {
-  "name": "xxx" // 需要判断的应用包名，具体的使用时候跟端定
+  "name": "" // weixin | alipay 需要判断的应用包名，目前仅支持微信、支付宝
 }
 ```
 回调示例：
@@ -61,6 +61,44 @@ H5调用示例：
 ```js
 LBZSdk.app.hasInstalled({name: 'xxx'},function(res){
   console.log(res.status);
+})
+```
+
+#### 4.监听app退出到后台
+接口名：
+core.onPause
+传入参数：
+(function(res){})
+回调示例：
+```js
+{
+
+}
+```
+H5调用示例：
+```js
+LBZSdk.gEvent.enable('onPause');// 取消注册监听把"enable"换成"disable"
+LBZSdk.network.on('onPause', function(){
+  console.log('onPause');
+})
+```
+
+#### 5.监听app从后台回显
+接口名：
+core.onResume
+传入参数：
+(function(){})
+回调示例：
+```js
+{
+
+}
+```
+H5调用示例：
+```js
+LBZSdk.gEvent.enable('onResume');// 取消注册监听把"enable"换成"disable"
+LBZSdk.network.on('onResume', function(){
+  console.log('onResume');
 })
 ```
 
@@ -123,19 +161,20 @@ LBZSdk.device.getSpaceSize(function(size){
   console.log(size.spaceSize);
 })
 ```
-#### 4.监听屏幕旋转
-接口名：
-core.onOrientationChange
-传入参数：
-(function(net){})
-回调示例：
+~~#### 4.监听屏幕旋转（不需要这个接口）~~
+~~接口名：~~
+~~core.onOrientationChange~~
+~~传入参数：~~
+~~(function(net){})~~
+~~回调示例：~~
 ```js
 {
   orientation: '{String}', // 当前屏幕方向 landscape | portrait
 }
 ```
-H5调用示例：
+~~H5调用示例：~~
 ```js
+LBZSdk.gEvent.enable('onOrientationChange');// 取消注册监听把"enable"换成"disable"
 LBZSdk.device.on('onOrientationChange', function(res){
   console.log(res.orientation);
 })
@@ -148,7 +187,7 @@ core.setOrientation
 opt参数示例：
 ```js
 {
-  "orientation": "landscape" // 屏幕方向 landscape | portrait | auto
+  "orientation": "landscape" // 屏幕方向 landscape | portrait
 }
 ```
 回调示例：
@@ -194,6 +233,7 @@ core.onNetworkChange
 ```
 H5调用示例：
 ```js
+LBZSdk.gEvent.enable('onNetworkChange');// 取消注册监听把"enable"换成"disable"
 LBZSdk.network.on('onNetworkChange', function(net){
   console.log(net.now);
 })
@@ -218,12 +258,12 @@ LBZSdk.user.isLogin(function(flag){
   console.log(flag);
 })
 ```
-#### 2.获取用户信息
-接口名：
-fun.getUserInfo
-传入参数：
-(function(info){})
-回调示例：
+~~#### 2.获取用户信息（废弃，H5页面上直接调用接口获取用户信息）~~
+~~接口名：~~
+~~fun.getUserInfo~~
+~~传入参数：~~
+~~(function(info){})~~
+~~回调示例：~~
 ```js
 {
   name: '{String}', // 用户名
@@ -234,13 +274,13 @@ fun.getUserInfo
   status: {Number} // 用户状态：0:正常 1:已禁用 ...
 }
 ```
-H5调用示例：
+~~H5调用示例：~~
 ```js
 LBZSdk.user.getInfo(function(info){
   console.log(info.name);
 })
 ```
-说明：如果获取不到用户信息则返回为空{}
+~~说明：如果获取不到用户信息则返回为空{}~~
 #### 3.登陆
 接口名：
 fun.userLogin
@@ -249,18 +289,13 @@ fun.userLogin
 回调示例：
 ```js
 {
-  name: '{String}', // 用户名
-  nickname: '{String}', // 用户昵称
-  email: '{String}', // 邮箱
-  uid: '{String}', // uid
-  img: '{String}', // 用户头像
-  status: {Number} // 用户状态：0:正常 1:已禁用 ...
+  res: {Boolean} // true | false 是否登陆成功
 }
 ```
 H5调用示例：
 ```js
 LBZSdk.user.login(function(info){
-  console.log(info.name);
+  console.log(info.res);
 })
 ```
 ~~#### 4.登出（废弃）~~
@@ -270,15 +305,15 @@ LBZSdk.user.login(function(info){
 ~~(function(res){})~~
 ~~回调示例：~~
 ```js
-~~{~~
-~~  status: '{Boolean}' // 是否登出成功 true | false~~
-~~}~~
+{
+  status: '{Boolean}' // 是否登出成功 true | false
+}
 ```
 ~~H5调用示例：~~
 ```js
-~~LBZSdk.user.logout(function(res){~~
-~~  console.log(res.status);~~
-~~})~~
+LBZSdk.user.logout(function(res){
+  console.log(res.status);
+})
 ```
 ~~#### 5.监听登陆状态改变（废弃）~~
 ~~接口名：~~
@@ -287,21 +322,21 @@ LBZSdk.user.login(function(info){
 ~~(function(res){})~~
 ~~回调示例：~~
 ```js
-~~{~~
-~~  action: '{String}', // 动作名称（login | logout）~~
-~~  name: '{String}', // 用户名~~
-~~  nickname: '{String}', // 用户昵称~~
-~~  email: '{String}', // 邮箱~~
-~~  uid: '{String}', // uid~~
-~~  img: '{String}', // 用户头像~~
-~~  status: {Number} // 用户状态：0:正常 1:已禁用 ...~~
-~~}~~
+{
+  action: '{String}', // 动作名称（login | logout）
+  name: '{String}', // 用户名
+  nickname: '{String}', // 用户昵称
+  email: '{String}', // 邮箱
+  uid: '{String}', // uid
+  img: '{String}', // 用户头像
+  status: {Number} // 用户状态：0:正常 1:已禁用 ...
+}
 ```
 ~~H5调用示例：~~
 ```js
-~~LBZSdk.user.on('onLoginChange', function(res){~~
-~~  console.log(res.action);~~
-~~})~~
+LBZSdk.user.on('onLoginChange', function(res){
+  console.log(res.action);
+})
 ```
 ~~说明：当action是logout时，其他字段为空~~
 
@@ -347,13 +382,14 @@ opt示例如下：
 回调示例：
 ```js
 {
-  data: ['111', '222'], // 数据信息数组，单个元素类型可以是String,Number,JSONString
+  "abc": "ds",
+  "123": "qwqwq"  // 数据，单个元素类型可以是String,Number,JSONString
 }
 ```
 H5调用示例：
 ```js
 LBZSdk.data.getData({key: ["abc", "123"]}}, function(res){
-  console.log('获取的数据为：', res.data);
+  console.log('获取的数据为：', res);
 })
 ```
 说明：如果获取不到数据则返回结果里data为空
@@ -411,6 +447,7 @@ opt示例如下：
 ```js
 {
   url: '{String}', // 打开的链接
+  title: '{String}', // 设置窗口顶部title
   type: '{String}' // 新webview打开还是当前
 }
 ```
@@ -421,7 +458,7 @@ opt示例如下：
 ```
 H5调用示例：
 ```js
-LBZSdk.win.open({url: 'http://www.le.com', type: 'new'});
+LBZSdk.win.open({url: 'http://www.le.com', type: 'new', title: '乐视视频'});
 ```
 #### 2.窗口前进一页
 接口名：
@@ -461,26 +498,50 @@ LBZSdk.win.back(function(res){
 ```
 说明：当webview里没有上一页的时候status返回false
 
-#### 4.调起APP原生页面（可能不需要这个接口）
+#### 4.设置窗口属性
 接口名：
-fun.openNative
+fun.setWebview
 传入参数：
-(opt)
-opt示例如下：
+(opt, function(res){})
+opt示例
+```js
+{
+  title: '{String}'  // 窗口标题
+}
+```
+回调示例：
+```js
+{
+  status: '{Boolean}', // 设置结果 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.win.set({title: "窗口标题"}, function(res){
+  console.log(res.status);
+})
+```
+
+~~#### 5.调起APP原生页面（不需要这个接口）~~
+~~接口名：~~
+~~fun.openNative~~
+~~传入参数：~~
+~~(opt)~~
+~~opt示例如下：~~
 ```js
 {
   url: '{String}' // APP内页面地址
 }
 ```
-回调示例：
+~~回调示例：~~
 ```js
 无回调
 ```
-H5调用示例：
+~~H5调用示例：~~
 ```js
 LBZSdk.win.openNative({url: 'user_center'});
 ```
-说明：传入的url需要提前知道
+~~说明：传入的url需要提前知道~~
 
 
 ### 六、弹框
@@ -524,7 +585,7 @@ opt示例如下：
 ```js
 {
   dur: '{Number}', // 显示时长,单位：毫秒,默认2000 如：2500
-  pos: {Number},  // 显示位置， 0 | 1 | 2 | 3 | 4 （0:center,1:left,2:right,3:top,4:bottom）
+  pos: {Number},  // 显示位置， 0 | 1 （0:center,1:bottom）
   content: {String} // 显示的内容，其中 \n 为换行符
 }
 ```
@@ -580,33 +641,33 @@ LBZSdk.share.open({
 ~~(opt, function(res){})~~
 ~~opt示例如下：~~
 ```js
-~~{~~
-~~  channelName: 'wxFriend', //分享渠道：weibo|wxFriend|wxTimeline~~
-~~  title: '', // 自定义分享标题~~
-~~  desc: '', // 自定义分享内容~~
-~~  link: '', // 自定义分享链接~~
-~~  imgUrl: '', // 自定义分享图标~~
-~~}~~
+{
+  channelName: 'wxFriend', //分享渠道：weibo|wxFriend|wxTimeline
+  title: '', // 自定义分享标题
+  desc: '', // 自定义分享内容
+  link: '', // 自定义分享链接
+  imgUrl: '', // 自定义分享图标
+}
 ```
 ~~回调示例：~~
 ```js
-~~{~~
-~~  code: {Number} // 分享结果code，需具体定义，如：200表示分享成功，400表示用户取消分享等...~~
-~~}~~
+{
+ code: {Number} // 分享结果code，需具体定义，如：200表示分享成功，400表示用户取消分享等...
+}
 ```
 ~~H5调用示例：~~
 ```js
-~~LBZSdk.share.callShare({~~
-~~  channelName: 'wxFriend',~~
-~~  title: '自定义分享标题',~~
-~~  desc: '自定义分享内容',~~
-~~  link: '自定义分享链接',~~
-~~  imgUrl: '自定义分享图标'~~
-~~}, function(res){~~
-~~  if(res.code === 200){~~
-~~    console.log('分享成功了，恭喜');~~
-~~  }~~
-~~})~~
+LBZSdk.share.callShare({
+  channelName: 'wxFriend',
+  title: '自定义分享标题',
+  desc: '自定义分享内容',
+  link: '自定义分享链接',
+  imgUrl: '自定义分享图标'
+}, function(res){
+  if(res.code === 200){
+    console.log('分享成功了，恭喜');
+  }
+})
 ```
 ~~说明：传入的参数可能需要根据不同的渠道差异化~~
 
@@ -679,7 +740,7 @@ opt示例如下：
 回调示例：
 ```js
 {
-  value: {Array} // 选择的时间数组（如["2018","02","23"]、["2018","02"]、["17","23"]），如果用户点取消不会进入该回调
+  value: {String} // 选择的时间（如"2018-02-23"、"2018-02"、"17:23"），如果用户点取消不会进入该回调
 }
 ```
 H5调用示例：
