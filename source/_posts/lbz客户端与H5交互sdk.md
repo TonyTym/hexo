@@ -498,7 +498,35 @@ LBZSdk.win.back(function(res){
 ```
 说明：当webview里没有上一页的时候status返回false
 
-#### 4.设置窗口属性
+#### 4.后退到指定url
+接口名：
+fun.backToUrl
+传入参数：
+(opt, function(res){})
+opt示例
+```js
+{
+  url: '{String}'  // url
+}
+```
+回调示例：
+```js
+{
+  result: '{Boolean}', // true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.win.backToUrl({"url": "http://m.le.com/"}, function(res){
+  console.log(res.result);
+})
+```
+说明：
+1.如果历史纪录里没有该url，则不做处理，回调函数返回false;
+2.如果历史纪录里有且只有一个，则回退到指定url;
+3.如果历史纪录里有多个指定的url，则回退到最外层的那个，即最开始打开的那个指定url
+
+#### 5.设置窗口属性
 接口名：
 fun.setWebview
 传入参数：
