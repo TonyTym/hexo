@@ -48,7 +48,7 @@ core.hasInstalled
 opt参数示例：
 ```js
 {
-  "name": "weixin" // weixin | alipay | ... 需要判断的应用名(1.ios支持判断哪些应用依赖于第三方宿主APP支持；2.安卓目前支持主流应用 - weixin | alipay | mqq | youku | qiyi-iphone | taobao | weibo | mqzone)
+  "name": "weixin" // weixin | alipay | ... 需要判断的应用名(1.ios支持判断哪些应用依赖于第三方宿主APP支持；2.安卓目前支持主流应用 - weixin | alipay | mqq | youku | taobao | weibo | mqzone)
 }
 ```
 回调示例：
