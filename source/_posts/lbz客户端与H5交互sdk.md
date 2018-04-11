@@ -78,7 +78,7 @@ core.onPause
 H5调用示例：
 ```js
 LBZSdk.gEvent.enable('onPause');// 取消注册监听把"enable"换成"disable"
-LBZSdk.network.on('onPause', function(){
+LBZSdk.device.on('onPause', function(){
   console.log('onPause');
 })
 ```
@@ -97,7 +97,7 @@ core.onResume
 H5调用示例：
 ```js
 LBZSdk.gEvent.enable('onResume');// 取消注册监听把"enable"换成"disable"
-LBZSdk.network.on('onResume', function(){
+LBZSdk.device.on('onResume', function(){
   console.log('onResume');
 })
 ```
