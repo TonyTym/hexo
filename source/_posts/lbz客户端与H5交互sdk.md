@@ -281,6 +281,7 @@ LBZSdk.user.getInfo(function(info){
 })
 ```
 ~~说明：如果获取不到用户信息则返回为空{}~~
+
 #### 3.登陆
 接口名：
 fun.userLogin
@@ -298,7 +299,28 @@ LBZSdk.user.login(function(info){
   console.log(info.res);
 })
 ```
-~~#### 4.登出（废弃）~~
+
+#### 4.重新授权（仅供APP调用，H5请不要用）
+接口名：
+fun.reGrant
+传入参数：
+(function(res){})
+回调示例：
+```js
+{
+  status: {Boolean} // true | false 是否成功
+}
+```
+调用示例：
+```js
+LBZSdk.user.reGrant(function(res){
+  console.log(res.status);
+})
+```
+说明：在入口处如果授权失败，会进入授权失败页面（APP内置），点击页面空白处会调用该方法去重新走授权流程。当重新授权成功后，跳转到目标页。
+
+
+~~#### 5.登出（废弃）~~
 ~~接口名：~~
 ~~fun.userLogout~~
 ~~传入参数：~~
@@ -315,7 +337,7 @@ LBZSdk.user.logout(function(res){
   console.log(res.status);
 })
 ```
-~~#### 5.监听登陆状态改变（废弃）~~
+~~#### 6.监听登陆状态改变（废弃）~~
 ~~接口名：~~
 ~~fun.onLoginChange~~
 ~~传入参数：~~
