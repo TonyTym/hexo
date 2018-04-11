@@ -48,7 +48,7 @@ core.hasInstalled
 opt参数示例：
 ```js
 {
-  "name": "" // weixin | alipay 需要判断的应用包名，目前仅支持微信、支付宝
+  "name": "weixin" // weixin | alipay | ... 需要判断的应用名(1.ios支持判断哪些应用依赖于第三方宿主APP支持；2.安卓目前支持主流应用 - weixin | alipay | mqq | youku | qiyi-iphone | taobao | weibo | mqzone)
 }
 ```
 回调示例：
@@ -59,7 +59,7 @@ opt参数示例：
 ```
 H5调用示例：
 ```js
-LBZSdk.app.hasInstalled({name: 'xxx'},function(res){
+LBZSdk.app.hasInstalled({name: 'weixin'},function(res){
   console.log(res.status);
 })
 ```
