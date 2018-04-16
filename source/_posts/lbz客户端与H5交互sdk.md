@@ -48,7 +48,7 @@ core.hasInstalled
 opt参数示例：
 ```js
 {
-  "name": "weixin" // weixin | alipay | ... 需要判断的应用名(1.ios支持判断哪些应用依赖于第三方宿主APP支持；2.安卓目前支持主流应用 - weixin | alipay | mqq | youku | taobao | weibo | mqzone)
+  "name": "weixin" // weixin | alipay | ... 需要判断的应用名(1.ios支持判断哪些应用依赖于第三方宿主APP支持；2.安卓目前支持主流应用 - weixin | alipay | mqq | youku | taobao | weibo | mqzone | openapp.jdmobile | letvclient | tmall | qiyi-iphone)
 }
 ```
 回调示例：
@@ -801,6 +801,32 @@ LBZSdk.calendar.select({
   "type": "date"
 }, function(res){
   console.log(res.value);
+});
+```
+
+### 十一、第三方原生APP相关
+#### 1.打开商品详情页
+接口名：
+fun.openDetail
+传入参数：
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  "channel": "tmall", // tmall | jd | taobao
+  "id": 212123   // 商品id
+}
+```
+回调示例：
+```js
+{
+  status: {Boolean}, // 是否成功 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.native.openDetail({"channel": "taobao", "id": 1213121}, function(info) {
+    alert(info);
 });
 ```
 
