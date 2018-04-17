@@ -912,7 +912,7 @@ core.onPomeloEvent
 H5调用示例：
 ```js
 LBZSdk.gEvent.enable('onPomeloEvent');// 取消注册监听把"enable"换成"disable"
-LBZSdk.network.on('onPomeloEvent', function(res) {
+LBZSdk.pomelo.on('onPomeloEvent', function(res) {
     if('onResult' === res.type){
         console.log('onResult', res.data);
     } else if('onSelect' === res.type){
