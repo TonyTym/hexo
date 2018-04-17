@@ -435,8 +435,8 @@ opt示例如下：
 ```
 H5调用示例：
 ```js
-LBZSdk.data.copyToClipboard({key: 'abc'}}, function(res){
-  console.log('获取的数据为：', res.status);
+LBZSdk.data.copyToClipboard({data: 'abc123'}, function(res){
+  console.log(res.status);
 })
 ```
 
@@ -827,6 +827,99 @@ H5调用示例：
 ```js
 LBZSdk.native.openDetail({"channel": "taobao", "id": 1213121}, function(info) {
     alert(info);
+});
+```
+
+### 十二、pomelo（仅供安卓4.4以下）
+#### 1.init
+接口名：
+fun.initPomelo
+传入参数：
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  "host": 'x.x.x.x',
+  "port": 'xxxx',
+  // 其他根据不同业务调用
+}
+```
+回调示例：
+```js
+{
+  status: {Boolean} // true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.pomelo.init({
+    "host":"lebzs.le.com",
+    "port":9014,
+    "user":{"uid":"10002","nickname":"乐必中_10002","picture":"https://i3.letvimg.com/lc06_user/201605/09/15/04/1923203311462777446_50_50.jpg","balance":"23800"}
+  }, function(info) {
+    alert(info);
+});
+```
+
+#### 2.request
+接口名：
+fun.requestPomelo
+传入参数：
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  // 其他根据不同业务调用
+}
+```
+回调示例：
+```js
+{
+  // 其他根据不同业务调用
+}
+```
+H5调用示例：
+```js
+LBZSdk.pomelo.request("fruit.fruitHandler.select", {
+      "fruit":{"id":4,"key":"banana4","image":"//i3.letvimg.com/lc03_img/201803/01/10/23/1022/fruits04.png","title":"雪梨","order":3}
+   }, function(res) {
+    alert(res);
+});
+```
+
+#### 3.request
+接口名：
+fun.disconnectPomelo
+传入参数：
+()
+H5调用示例：
+```js
+LBZSdk.pomelo.disconnect();
+```
+
+#### 4.监听pomelo
+接口名：
+core.onPomeloEvent
+传入参数：
+(function(res){})
+回调示例：
+```js
+{
+  type: '{String}', // 自定义的监听类型，如： onResult , onSelect ...
+  data: {}  // 回调的数据
+}
+```
+H5调用示例：
+```js
+LBZSdk.gEvent.enable('onPomeloEvent');// 取消注册监听把"enable"换成"disable"
+LBZSdk.network.on('onPomeloEvent', function(res) {
+    if('onResult' === res.type){
+        console.log('onResult', res.data);
+    } else if('onSelect' === res.type){
+        console.log('onSelect', res.data);
+    } else if(){
+        ...
+    }
 });
 ```
 

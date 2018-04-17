@@ -26,8 +26,8 @@
       <file leaf-file-name="lbz客户端与H5交互sdk.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="807" column="14" selection-start-line="807" selection-start-column="14" selection-end-line="807" selection-end-column="14" />
+            <state relative-caret-position="368">
+              <caret line="867" column="22" lean-forward="true" selection-end-line="925" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -52,6 +52,7 @@
       <find>app.</find>
       <find>webview</find>
       <find>qiyi-iphone</find>
+      <find>copyToClipboard</find>
     </findStrings>
     <replaceStrings>
       <replace>####</replace>
@@ -260,18 +261,25 @@
       <workItem from="1523866455558" duration="4000" />
       <workItem from="1523866471251" duration="20000" />
       <workItem from="1523866507140" duration="12000" />
+      <workItem from="1523866541611" duration="194000" />
+      <workItem from="1523870859093" duration="23000" />
+      <workItem from="1523870910671" duration="2000" />
+      <workItem from="1523871068013" duration="10000" />
+      <workItem from="1523960596467" duration="94000" />
+      <workItem from="1523960706402" duration="308000" />
+      <workItem from="1523961051870" duration="98000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19406000" />
+    <option name="totallyTimeSpent" value="20135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22603719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -297,6 +305,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6435">
+          <caret line="429" column="5" lean-forward="true" selection-end-line="832" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12060">
+          <caret line="804" column="3" lean-forward="true" selection-end-line="832" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12105">
+          <caret line="807" column="14" selection-start-line="807" selection-start-column="14" selection-end-line="807" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12540">
@@ -622,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="807" column="14" selection-start-line="807" selection-start-column="14" selection-end-line="807" selection-end-column="14" />
+        <state relative-caret-position="368">
+          <caret line="867" column="22" lean-forward="true" selection-end-line="925" selection-end-column="26" />
         </state>
       </provider>
     </entry>
