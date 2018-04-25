@@ -887,7 +887,7 @@ LBZSdk.pomelo.request("fruit.fruitHandler.select", {
 });
 ```
 
-#### 3.request
+#### 3.disconnect
 接口名：
 fun.disconnectPomelo
 传入参数：
