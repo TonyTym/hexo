@@ -732,7 +732,7 @@ opt示例如下：
 ```js
 {
   goodsId: '{String}', // 商品id
-  channel: '{String}' // 支付渠道 weixin | alipay | applepay
+  channel: '{String}' // 支付渠道 weixin | alipay | thirdWeixin | thirdAlipay        applepay(for ios)
 }
 ```
 回调示例：
