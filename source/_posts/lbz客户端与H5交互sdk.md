@@ -202,7 +202,32 @@ LBZSdk.device.setOrientation({"orientation": "landscape"}, function(res){
   console.log(res.status);
 })
 ```
-#### 6.获取网络
+
+#### 6.设置屏幕常亮
+接口名：
+core.setScreenOn
+传入参数：
+(function(net){})
+opt参数示例：
+```js
+无
+```
+回调示例：
+```js
+{
+  status: {Boolean}, // true | false 是否设置成功
+}
+```
+H5调用示例：
+```js
+LBZSdk.device.setScreenOn(function(res){
+  console.log(res.status);
+})
+```
+说明：安卓和ios端每次跳转新页面的时候需要恢复设置
+
+
+#### 7.获取网络
 接口名：
 core.getNetwork
 传入参数：
@@ -220,7 +245,7 @@ LBZSdk.network.getInfo(function(net){
   console.log(net.type);
 })
 ```
-#### 7.监听网络
+#### 8.监听网络
 接口名：
 core.onNetworkChange
 传入参数：
