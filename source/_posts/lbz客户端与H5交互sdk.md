@@ -223,7 +223,7 @@ LBZSdk.network.getInfo(function(net){
 ```
 #### 7.监听网络
 接口名：
-core.onNetworkChange
+onNetworkChange
 传入参数：
 (function(net){})
 回调示例：
@@ -302,11 +302,17 @@ LBZSdk.user.login(function(info){
 })
 ```
 
-#### 4.重新授权（仅供APP调用，H5请不要用）
+#### 4.重新授权（H5用参数必传，且为web）
 接口名：
 fun.reGrant
 传入参数：
-(function(res){})
+(opt, function(res){})
+opt示例如下：
+```js
+{
+  source: 'web' // 固定为 web，为了区分来自H5还是APP里面的
+}
+```
 回调示例：
 ```js
 {
@@ -319,7 +325,8 @@ LBZSdk.user.reGrant(function(res){
   console.log(res.status);
 })
 ```
-说明：在入口处如果授权失败，会进入授权失败页面（APP内置），点击页面空白处会调用该方法去重新走授权流程。当重新授权成功后，跳转到目标页。
+说明：1.在入口处如果授权失败，会进入授权失败页面（APP内置），点击页面空白处会调用该方法去重新走授权流程。当重新授权成功后，跳转到目标页。
+     2.用户未登陆状况下进入页面，然后页面上调起用户登陆接口，如果此时登陆授权失败，则需要跳转到H5的授权失败页面。该方法在H5授权失败页调用。
 
 
 ~~#### 5.登出（废弃）~~
@@ -685,6 +692,80 @@ LBZSdk.share.open({
 });
 ```
 说明：1.一期只支持三种渠道分享：微信朋友圈，微信好友，新浪微博
+     2.此分享是页面里用户点击按钮后手动触发的分享，与 showMenuShare 不同
+
+#### 2.显示右上角分享按钮
+接口名：
+fun.showMenuShare
+传入参数：
+(opt, function(){})
+opt示例如下：
+```js
+{
+   title: '', // 自定义分享标题
+   desc: '', // 自定义分享内容
+   link: '', // 自定义分享链接
+   url: '', // 自定义分享链接（乐视android版分享字段是url，ios版是link）
+   imgUrl: '' // 自定义分享图标
+   ...
+}
+```
+回调示例：
+```js
+{
+  status: {Boolean} // 调用结果 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.share.showMenuShare({
+  "title": "您还有1000金币待领取~手慢无！",
+  "desc": "玩小游戏做任务，就能赚金币，赶紧戳☞",
+  "link": encodeURIComponent("https://lebz.le.com/fruitShare.html"),
+  "url": encodeURIComponent("https://lebz.le.com/fruitShare.html"),
+  "imgUrl": encodeURIComponent("http://i0.letvimg.com/lc06_img/201804/26/18/26/wechatShare.png")
+}, function(res){
+  console.log(res);
+});
+```
+
+#### 3.关闭右上角分享按钮
+接口名：
+fun.hideMenuShare
+传入参数：
+(function(){})
+回调示例：
+```js
+{
+  status: {Boolean} // 调用结果 true | false
+}
+```
+H5调用示例：
+```js
+LBZSdk.share.hideMenuShare(function(res){
+    console.log(res);
+});
+```
+
+#### 4.注册右上角分享监听
+接口名：
+onMenuShare
+传入参数：
+(function(net){})
+回调示例：
+```js
+{
+  code: {Number}, // 分享状态码（200表示成功，400表示用户取消等，具体定义根据第三方APP给的错误码确定）
+  channel: {String} // 用户点击的分享渠道 （如 wxTimeline | wxFriend | weibo | wxShare）
+}
+```
+H5调用示例：
+```js
+LBZSdk.gEvent.enable('onMenuShare');// 取消注册监听把"enable"换成"disable"
+LBZSdk.share.on('onMenuShare', function(res){
+  console.log(res);
+})
+```
 
 ~~#### 2.分享（废弃）~~
 ~~接口名：~~
