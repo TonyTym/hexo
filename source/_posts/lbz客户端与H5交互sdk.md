@@ -291,7 +291,8 @@ fun.userLogin
 回调示例：
 ```js
 {
-  res: {Boolean} // true | false 是否登陆成功
+  res: {Boolean}, // true | false 是否登陆成功
+  errCode: {Number} // 客户端拿token去乐必中后端换ticket时返回的错误码，如10108：用户被封禁  注：res为true的时候errCode为200
 }
 ```
 H5调用示例：
