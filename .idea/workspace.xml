@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +26,17 @@
       <file leaf-file-name="lbz客户端与H5交互sdk.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="590" column="5" lean-forward="true" selection-start-line="590" selection-start-column="5" selection-end-line="590" selection-end-column="5" />
+            <state relative-caret-position="91">
+              <caret line="601" column="22" selection-end-line="1031" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="129" column="12" lean-forward="true" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -297,26 +306,27 @@
       <workItem from="1525858616790" duration="902000" />
       <workItem from="1529669102368" duration="636000" />
       <workItem from="1529670058675" duration="163000" />
-      <workItem from="1535017591365" duration="788000" />
+      <workItem from="1535017591365" duration="998000" />
+      <workItem from="1535018844736" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24485000" />
+    <option name="totallyTimeSpent" value="24699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12947068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20171674" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28282827" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5007215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -667,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="102" column="14" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/从0开始搭建日志分析系统（一）.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -681,10 +684,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="129" column="12" lean-forward="true" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="590" column="5" lean-forward="true" selection-start-line="590" selection-start-column="5" selection-end-line="590" selection-end-column="5" />
+        <state relative-caret-position="91">
+          <caret line="601" column="22" selection-end-line="1031" selection-end-column="26" />
         </state>
       </provider>
     </entry>

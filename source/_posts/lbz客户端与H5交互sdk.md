@@ -583,9 +583,9 @@ LBZSdk.win.set({title: "窗口标题"}, function(res){
 
 #### 6.注册返回按钮阻止事件
 -- 需要在url中加参数 backInterrupt=1
--- 如果想定制化提示文案或者按钮文案，需要在url里加参数：interruptTitle, interruptYesText,interruptNoText
+-- 如果想定制化提示文案或者按钮文案，需要在url里加参数：interruptTitle, interruptCo, interruptYesText,interruptNoText
 -- 默认提示文案： "确认返回" "取消" "确定"
--- url示例：http://lebz.le.com/?backInterrupt=1&interruptTitle=大爷,不再玩会儿了&interruptYesText=不玩了&interruptNoText=滚
+-- url示例：http://lebz.le.com/?backInterrupt=1&interruptTitle=大爷,不再玩会儿了&interruptCo=以后常来啊&interruptYesText=不玩了&interruptNoText=滚
 接口名：
 onBackInterrupt
 传入参数：
