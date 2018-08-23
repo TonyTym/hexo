@@ -581,6 +581,29 @@ LBZSdk.win.set({title: "窗口标题"}, function(res){
 })
 ```
 
+#### 6.注册返回按钮阻止事件
+-- 需要在url中加参数 backInterrupt=1
+-- 如果想定制化提示文案或者按钮文案，需要在url里加参数：interruptTitle, interruptYesText,interruptNoText
+-- 默认提示文案： "确认返回" "取消" "确定"
+-- url示例：http://lebz.le.com/?backInterrupt=1&interruptTitle=大爷,不再玩会儿了&interruptYesText=不玩了&interruptNoText=滚
+接口名：
+onBackInterrupt
+传入参数：
+(function(net){})
+回调示例：
+```js
+{
+  result: 'ok|cancel'  // 点击了哪个按钮
+}
+```
+H5调用示例：
+```js
+LBZSdk.gEvent.enable('onBackInterrupt');// 取消注册监听把"enable"换成"disable"
+LBZSdk.network.on('onBackInterrupt', function(res){
+  console.log(res.result);
+})
+```
+
 ~~#### 5.调起APP原生页面（不需要这个接口）~~
 ~~接口名：~~
 ~~fun.openNative~~
