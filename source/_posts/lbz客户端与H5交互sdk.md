@@ -729,7 +729,9 @@ opt示例如下：
    desc: '', // 自定义分享内容
    link: '', // 自定义分享链接
    url: '', // 自定义分享链接（乐视android版分享字段是url，ios版是link）
-   imgUrl: '' // 自定义分享图标
+   imgUrl: '', // 自定义分享图标
+   bubbleTxt: '', // 气泡文案，如果不传或者传空，则不显示气泡
+   shareIcon: '' // 分享图标地址，如果不传用默认的
    ...
 }
 ```
@@ -746,7 +748,9 @@ LBZSdk.share.showMenuShare({
   "desc": "玩小游戏做任务，就能赚金币，赶紧戳☞",
   "link": encodeURIComponent("https://lebz.le.com/fruitShare.html"),
   "url": encodeURIComponent("https://lebz.le.com/fruitShare.html"),
-  "imgUrl": encodeURIComponent("http://i0.letvimg.com/lc06_img/201804/26/18/26/wechatShare.png")
+  "imgUrl": encodeURIComponent("http://i0.letvimg.com/lc06_img/201804/26/18/26/wechatShare.png"),
+  "bubbleTxt": '+20金币',
+  "shareIcon": 'http://onm9ileaw.bkt.clouddn.com/appoint@3x.png'
 }, function(res){
   console.log(res);
 });
