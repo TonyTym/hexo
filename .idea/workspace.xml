@@ -25,7 +25,7 @@
       <file leaf-file-name="lbz客户端与H5交互sdk.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="11280">
               <caret line="752" column="64" selection-start-line="752" selection-start-column="64" selection-end-line="752" selection-end-column="64" />
             </state>
           </provider>
@@ -34,17 +34,17 @@
       <file leaf-file-name="从0开始搭建日志分析系统（一）.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/从0开始搭建日志分析系统（一）.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+            <state relative-caret-position="915">
+              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="centos搭建rabbitmq.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/centos搭建rabbitmq.md">
+      <file leaf-file-name="centos搭建rabbitmq（一）.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/centos搭建rabbitmq（一）.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
+            <state relative-caret-position="75">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="3" lean-forward="true" selection-start-line="15" selection-end-line="23" selection-end-column="3" />
+              <caret line="23" column="3" selection-start-line="15" selection-end-line="23" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -139,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +162,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,27 +331,26 @@
       <workItem from="1535018844736" duration="4000" />
       <workItem from="1535023154460" duration="510000" />
       <workItem from="1535686331203" duration="255000" />
-      <workItem from="1535975052615" duration="2872000" />
+      <workItem from="1535975052615" duration="3036000" />
+      <workItem from="1536233469489" duration="1357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28336000" />
+    <option name="totallyTimeSpent" value="29857000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22077923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -360,6 +359,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,10 +369,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/centos搭建rabbitmq（一）.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12105">
-          <caret line="807" column="14" selection-start-line="807" selection-start-column="14" selection-end-line="807" selection-end-column="14" />
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -696,14 +696,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/从0开始搭建日志分析系统（一）.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        <state relative-caret-position="915">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="11280">
           <caret line="752" column="64" selection-start-line="752" selection-start-column="64" selection-end-line="752" selection-end-column="64" />
         </state>
       </provider>
@@ -711,14 +711,14 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="15" selection-end-line="23" selection-end-column="3" />
+          <caret line="23" column="3" selection-start-line="15" selection-end-line="23" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/centos搭建rabbitmq.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/centos搭建rabbitmq（一）.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
