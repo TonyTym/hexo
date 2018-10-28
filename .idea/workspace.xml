@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="" />
+    <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,51 +21,64 @@
     <favorites_list name="hexo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="让js文件支持cmd、node、script标签方式引用.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/让js文件支持cmd、node、script标签方式引用.md">
+    <leaf>
+      <file leaf-file-name="谈谈node_env.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/谈谈node_env.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="1215">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>todo</find>
-      <find>device.</find>
-      <find>res.orientation</find>
-      <find>#####</find>
-      <find>登出</find>
-      <find>onNet</find>
-      <find>webView</find>
-      <find>setVebview</find>
-      <find>auto</find>
-      <find>getData</find>
-      <find>H5页面上直接调用接口获取用户信息</find>
-      <find>userLogin</find>
-      <find>user.login</find>
-      <find>app.</find>
-      <find>webview</find>
-      <find>qiyi-iphone</find>
-      <find>copyToClipboard</find>
-      <find>alipay</find>
-      <find>device</find>
-      <find>setScreenOn</find>
-      <find>http</find>
-      <find>####</find>
-      <find>onNetworkChange</find>
-      <find>win</find>
-      <find>onMenuShare</find>
       <find>showMenuShare</find>
       <find>categories</find>
+      <find>Leopard</find>
+      <find>genisLeopard</find>
+      <find>getSum</find>
+      <find>var</find>
+      <find>res</find>
+      <find>temp</find>
+      <find>isSmall</find>
+      <find>let arr[</find>
+      <find>.dice.</find>
+      <find>1.9</find>
+      <find>orders[pos]</find>
+      <find>diceObj</find>
+      <find>amount</find>
+      <find>dice</find>
+      <find>obj[1</find>
+      <find>验证是否有结果为空的情况</find>
+      <find>getItemSum</find>
+      <find>reduce</find>
+      <find>.amount }</find>
+      <find>.sum</find>
+      <find>a[</find>
+      <find>对子</find>
+      <find>disrupt</find>
+      <find>todo</find>
+      <find>genCouplet</find>
+      <find>winPos</find>
+      <find>pos</find>
+      <find>return</find>
     </findStrings>
     <replaceStrings>
       <replace>####</replace>
       <replace>#####</replace>
+      <replace>isLeopard</replace>
+      <replace>[</replace>
+      <replace>arr[</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -90,6 +105,10 @@
         <option value="$PROJECT_DIR$/source/_posts/centos搭建rabbitmq（二）.md" />
         <option value="$PROJECT_DIR$/source/_posts/浅谈js中对象的深、浅拷贝.md" />
         <option value="$PROJECT_DIR$/source/_posts/让js文件支持cmd、node、script标签方式引用.md" />
+        <option value="$PROJECT_DIR$/ttt.js" />
+        <option value="$PROJECT_DIR$/ss.js" />
+        <option value="$PROJECT_DIR$/run.js" />
+        <option value="$PROJECT_DIR$/source/_posts/谈谈node_env.md" />
       </list>
     </option>
   </component>
@@ -102,8 +121,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="321" />
+    <option name="y" value="26" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
@@ -153,6 +173,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/_posts" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,26 +328,27 @@
       <workItem from="1535686331203" duration="255000" />
       <workItem from="1535975052615" duration="3036000" />
       <workItem from="1536233469489" duration="1641000" />
-      <workItem from="1538991553380" duration="5590000" />
+      <workItem from="1538991553380" duration="5800000" />
+      <workItem from="1539832327571" duration="13194000" />
+      <workItem from="1540718494144" duration="1917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35731000" />
+    <option name="totallyTimeSpent" value="51052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10801145" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2900433" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="1.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -337,6 +359,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14306152" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -344,28 +386,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4590">
-          <caret line="306" column="17" lean-forward="true" selection-end-line="806" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="26" lean-forward="true" selection-end-line="784" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="26" lean-forward="true" selection-end-line="784" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
@@ -604,11 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Vue-cli快速搭建Vue.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x下安装mysql.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1295" />
@@ -618,13 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="5" selection-start-line="15" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/乐必中项目打包上线流程.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -663,9 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/原生JS的debounce和throttle.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/Aliyun+Nginx部署网站.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -687,10 +698,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/genData.js" />
+    <entry file="file://$PROJECT_DIR$/run.js" />
+    <entry file="file://$PROJECT_DIR$/genRes.js" />
+    <entry file="file://$PROJECT_DIR$/source/_posts/Vue-cli快速搭建Vue.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/乐必中项目打包上线流程.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/让js文件支持cmd、node、script标签方式引用.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="1185">
+          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/谈谈node_env.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
