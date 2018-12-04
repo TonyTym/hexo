@@ -565,7 +565,11 @@ fun.setWebview
 opt示例
 ```js
 {
-  title: '{String}'  // 窗口标题
+  "title": "乐必中", // 窗口title
+  "bg": "555555",  // head背景颜色，不需要#
+  "textColor": "ffffff", // 字体颜色，不需要#
+  "themes": "light",  // 当前主题：1.用于改变状态栏 2.如果没传backIcon，便于客户端选择本地默认的backIcon
+  "backIcon": "" // 返回按钮图片地址
 }
 ```
 回调示例：
@@ -576,7 +580,7 @@ opt示例
 ```
 H5调用示例：
 ```js
-LBZSdk.win.set({title: "窗口标题"}, function(res){
+LBZSdk.win.set({"title": "乐必中", "bg": "#555555", "textColor": "#ffffff", "themes": "light", "backIcon": "http://i2.letvimg.com/lc07_img/201812/04/15/00/back_light@3x.png"}, function(res){
   console.log(res.status);
 })
 ```
@@ -731,7 +735,8 @@ opt示例如下：
    url: '', // 自定义分享链接（乐视android版分享字段是url，ios版是link）
    imgUrl: '', // 自定义分享图标
    bubbleTxt: '', // 气泡文案，如果不传或者传空，则不显示气泡
-   shareIcon: '' // 分享图标地址，如果不传用默认的
+   shareIcon: '', // 分享图标地址，如果不传用默认的
+   themes: 'dark | light' // 当前主题，便于客户端选择默认分享图标
    ...
 }
 ```
@@ -750,7 +755,8 @@ LBZSdk.share.showMenuShare({
   "url": encodeURIComponent("https://lebz.le.com/fruitShare.html"),
   "imgUrl": encodeURIComponent("http://i0.letvimg.com/lc06_img/201804/26/18/26/wechatShare.png"),
   "bubbleTxt": '+20金币',
-  "shareIcon": 'http://onm9ileaw.bkt.clouddn.com/appoint@3x.png'
+  "shareIcon": 'http://i0.letvimg.com/lc07_img/201812/04/15/00/share_light@3x.png', // http://i2.letvimg.com/lc07_img/201812/04/15/00/share_dark@3x.png  http://i0.letvimg.com/lc07_img/201812/04/15/00/share_light@3x.png
+  "themes": "light"
 }, function(res){
   console.log(res);
 });
