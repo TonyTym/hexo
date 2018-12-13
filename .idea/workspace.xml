@@ -26,8 +26,8 @@
       <file leaf-file-name="lbz客户端与H5交互sdk.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="580" column="7" lean-forward="true" selection-start-line="580" selection-start-column="7" selection-end-line="580" selection-end-column="7" />
+            <state relative-caret-position="803">
+              <caret line="575" column="5" lean-forward="true" selection-start-line="575" selection-start-column="5" selection-end-line="575" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -43,7 +43,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>var</find>
       <find>res</find>
       <find>temp</find>
       <find>isSmall</find>
@@ -73,6 +72,7 @@
       <find>, 本局支出:</find>
       <find>http://onm9ileaw.bkt.clouddn.com/appoint@3x.png</find>
       <find>backIcon</find>
+      <find>share</find>
     </findStrings>
     <replaceStrings>
       <replace>####</replace>
@@ -125,10 +125,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="815" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -337,15 +337,16 @@
       <workItem from="1541130113493" duration="1265000" />
       <workItem from="1541139324851" duration="131000" />
       <workItem from="1541142460983" duration="511000" />
-      <workItem from="1543905199445" duration="1256000" />
+      <workItem from="1543905199445" duration="1619000" />
+      <workItem from="1544671595478" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54246000" />
+    <option name="totallyTimeSpent" value="54870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="815" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.2739628" />
@@ -355,7 +356,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.552518" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="1.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,21 +370,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.5539568" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -401,8 +402,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="26" lean-forward="true" selection-end-line="784" selection-end-column="26" />
+        <state relative-caret-position="8775">
+          <caret line="585" column="3" lean-forward="true" selection-start-line="585" selection-start-column="3" selection-end-line="585" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -722,13 +723,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/letv.md">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/node_modules/hexo-log/lib/log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="580" column="7" lean-forward="true" selection-start-line="580" selection-start-column="7" selection-end-line="580" selection-end-column="7" />
+        <state relative-caret-position="803">
+          <caret line="575" column="5" lean-forward="true" selection-start-line="575" selection-start-column="5" selection-end-line="575" selection-end-column="5" />
         </state>
       </provider>
     </entry>
