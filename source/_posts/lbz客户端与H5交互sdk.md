@@ -569,8 +569,8 @@ opt示例
   "bg": "150B3B", // head背景颜色,不需要#
   "textColor": "ffffff", // 字体颜色,不需要#
   "themes": "light", // 当前主题：1.用于改变状态栏 2.如果没传backIcon，便于客户端选择本地默认的backIcon 3.如果没传closeIcon，便于客户端选择本地默认的closeIcon
-  "backIcon": "http://i0.letvimg.com/lc06_img/201812/13/10/25/back_light@3x.png", // 返回按钮图片地址 http://i2.letvimg.com/lc07_img/201812/04/15/00/back_dark@3x.png
-  "closeIcon": "http://i2.letvimg.com/lc06_img/201812/13/10/25/close_light@3x.png" // 关闭按钮图片地址 http://i2.letvimg.com/lc06_img/201812/13/10/25/close_dark@3x.png
+  "backIcon": "http://i2.letvimg.com/lc07_img/201812/13/14/46/back_light@3x.png", // 返回按钮图片地址 http://i2.letvimg.com/lc07_img/201812/13/14/45/back_dark@3x.png
+  "closeIcon": "http://i0.letvimg.com/lc07_img/201812/13/14/46/close_light@3x.png" // 关闭按钮图片地址 http://i1.letvimg.com/lc07_img/201812/13/14/46/close_dark@3x.png
 }
 ```
 回调示例：
@@ -581,7 +581,7 @@ opt示例
 ```
 H5调用示例：
 ```js
-LBZSdk.win.set({"title": "乐必中", "bg": "150B3B", "textColor": "ffffff", "themes": "light", "backIcon": "http://i0.letvimg.com/lc06_img/201812/13/10/25/back_light@3x.png", "closeIcon": "http://i2.letvimg.com/lc06_img/201812/13/10/25/close_light@3x.png"}, function(res){
+LBZSdk.win.set({"title": "乐必中", "bg": "150B3B", "textColor": "ffffff", "themes": "light", "backIcon": "http://i2.letvimg.com/lc07_img/201812/13/14/46/back_light@3x.png", "closeIcon": "http://i0.letvimg.com/lc07_img/201812/13/14/46/close_light@3x.png"}, function(res){
   console.log(res.status);
 })
 ```
@@ -760,7 +760,7 @@ LBZSdk.share.showMenuShare({
   "url": encodeURIComponent("https://lebz.le.com/fruitShare.html"),
   "imgUrl": encodeURIComponent("http://i0.letvimg.com/lc06_img/201804/26/18/26/wechatShare.png"),
   "bubbleTxt": '+20金币',
-  "shareIcon": 'http://i2.letvimg.com/lc06_img/201812/13/10/26/share_light@3x.png',
+  "shareIcon": 'http://i0.letvimg.com/lc07_img/201812/13/14/47/share_light@3x.png',
   "themes": 'light'
 }, function(res){
   console.log(res);
