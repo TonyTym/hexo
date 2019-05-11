@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/source/_posts/萌宠找削呐接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/萌宠找削呐接口.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="萌宠找削呐接口.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/萌宠找削呐接口.md">
+      <file leaf-file-name="糖果夺宝接口.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/糖果夺宝接口.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="380" column="28" lean-forward="true" selection-end-line="399" />
+            <state relative-caret-position="455">
+              <caret line="184" column="32" selection-end-line="192" />
             </state>
           </provider>
         </entry>
@@ -42,8 +42,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>orders[pos]</find>
-      <find>diceObj</find>
       <find>amount</find>
       <find>dice</find>
       <find>obj[1</find>
@@ -72,6 +70,8 @@
       <find>avater</find>
       <find>领取</find>
       <find>```</find>
+      <find>false</find>
+      <find>rouge</find>
     </findStrings>
     <replaceStrings>
       <replace>####</replace>
@@ -81,6 +81,7 @@
       <replace>arr[</replace>
       <replace />
       <replace>avatar</replace>
+      <replace>candy</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -115,6 +116,8 @@
         <option value="$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md" />
         <option value="$PROJECT_DIR$/source/_posts/jiekou.md" />
         <option value="$PROJECT_DIR$/source/_posts/萌宠找削呐接口.md" />
+        <option value="$PROJECT_DIR$/source/_posts/口红机接口.md" />
+        <option value="$PROJECT_DIR$/source/_posts/糖果夺宝接口.md" />
       </list>
     </option>
   </component>
@@ -128,8 +131,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="431" />
-    <option name="y" value="151" />
+    <option name="x" value="371" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
@@ -139,7 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,25 +357,33 @@
       <workItem from="1552446965241" duration="910000" />
       <workItem from="1552447882905" duration="124000" />
       <workItem from="1552788117075" duration="324000" />
+      <workItem from="1554821814057" duration="1430000" />
+      <workItem from="1554893888822" duration="62000" />
+      <workItem from="1554895260406" duration="101000" />
+      <workItem from="1555066709641" duration="294000" />
+      <workItem from="1555558364320" duration="2301000" />
+      <workItem from="1556015907008" duration="489000" />
+      <workItem from="1556016448504" duration="107000" />
+      <workItem from="1556077145565" duration="296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65922000" />
+    <option name="totallyTimeSpent" value="71002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="431" y="151" width="1440" height="813" extended-state="0" />
+    <frame x="371" y="23" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13161659" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21244635" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24531025" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.14285715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,6 +394,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21244635" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14285715" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -396,20 +427,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7575">
-          <caret line="505" column="5" lean-forward="true" selection-end-line="784" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7500">
-          <caret line="500" column="15" selection-start-line="500" selection-start-column="15" selection-end-line="500" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
@@ -728,8 +745,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/萌宠找削呐接口.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="380" column="28" lean-forward="true" selection-end-line="399" />
+        <state relative-caret-position="176">
+          <caret line="379" column="6" lean-forward="true" selection-start-line="379" selection-start-column="6" selection-end-line="379" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/口红机接口.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/糖果夺宝接口.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="184" column="32" selection-end-line="192" />
         </state>
       </provider>
     </entry>
