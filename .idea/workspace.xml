@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="糖果夺宝接口.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/糖果夺宝接口.md">
+      <file leaf-file-name="Mac下搭安卓模拟器的艰辛之路.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/Mac下搭安卓模拟器的艰辛之路.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="184" column="32" selection-end-line="192" />
+            <state relative-caret-position="480">
+              <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -118,6 +116,7 @@
         <option value="$PROJECT_DIR$/source/_posts/萌宠找削呐接口.md" />
         <option value="$PROJECT_DIR$/source/_posts/口红机接口.md" />
         <option value="$PROJECT_DIR$/source/_posts/糖果夺宝接口.md" />
+        <option value="$PROJECT_DIR$/source/_posts/Mac下搭安卓模拟器的艰辛之路.md" />
       </list>
     </option>
   </component>
@@ -130,8 +129,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="371" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
@@ -176,7 +174,7 @@
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -365,20 +363,21 @@
       <workItem from="1556015907008" duration="489000" />
       <workItem from="1556016448504" duration="107000" />
       <workItem from="1556077145565" duration="296000" />
+      <workItem from="1563438035308" duration="2477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71002000" />
+    <option name="totallyTimeSpent" value="73479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="371" y="23" width="1440" height="813" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21244635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30472103" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
@@ -404,14 +403,14 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.14285715" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -427,13 +426,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/lbz客户端与H5交互sdk.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
@@ -642,13 +634,6 @@
         <state relative-caret-position="-1295" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="3" selection-start-line="15" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/centos搭建rabbitmq（二）.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -759,8 +744,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/糖果夺宝接口.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="184" column="32" selection-end-line="192" />
+        <state relative-caret-position="418">
+          <caret line="180" column="40" lean-forward="true" selection-start-line="180" selection-start-column="40" selection-end-line="180" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="3" selection-start-line="15" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/Mac下搭安卓模拟器的艰辛之路.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
         </state>
       </provider>
     </entry>
