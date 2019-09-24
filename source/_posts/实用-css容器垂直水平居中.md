@@ -145,7 +145,7 @@ css容器垂直水平居中常用方法，持续更新中...
      <section class="inner">我是内容</section>
 </div>
 ```
-+2、css
++ 2、css
 ```css
 .box {
     display: flex;
