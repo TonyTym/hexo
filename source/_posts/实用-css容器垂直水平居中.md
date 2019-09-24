@@ -138,6 +138,25 @@ css容器垂直水平居中常用方法，持续更新中...
   }
 ```
 
+### 四、flex
++ 1、html
+```html
+<div class="box">
+     <section class="inner">我是内容</section>
+</div>
+```
++2、css
+```css
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    margin: 50px 0;
+}
+```
+
 
 持续更新中。。。
 
