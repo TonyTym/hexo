@@ -2,7 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/source/_posts/水滴筹笔试题.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/水滴筹笔试题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.deploy_git" beforeDir="false" afterPath="$PROJECT_DIR$/.deploy_git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Aliyun+Nginx部署网站/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Aliyun+Nginx部署网站/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/H5页面实现直播/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/H5页面实现直播/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Hello-world/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Hello-world/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Html5-ReplaceState实现详情页到列表页的无刷新且回到上次位置/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Html5-ReplaceState实现详情页到列表页的无刷新且回到上次位置/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/JS奇技淫巧/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/JS奇技淫巧/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/JavaScript学习笔记/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/JavaScript学习笔记/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Linux-CentOS-7.2.x下安装mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Linux-CentOS-7.2.x下安装mysql/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Mac下搭安卓模拟器的艰辛之路/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Mac下搭安卓模拟器的艰辛之路/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Vue-cli快速搭建Vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Vue-cli快速搭建Vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/centos搭建rabbitmq（一）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/centos搭建rabbitmq（一）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/centos搭建rabbitmq（二）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/centos搭建rabbitmq（二）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/lbz客户端与H5交互sdk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/lbz客户端与H5交互sdk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（一）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（一）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（三）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（三）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（二）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（二）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/全国省市县三级地址联动js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/全国省市县三级地址联动js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/原生JS的debounce和throttle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/原生JS的debounce和throttle/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/微信开发本地调试/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/微信开发本地调试/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/浅谈js中对象的赋值、深拷贝、浅拷贝/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/浅谈js中对象的赋值、深拷贝、浅拷贝/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/让js文件支持cmd、node、script标签方式引用/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/让js文件支持cmd、node、script标签方式引用/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/谈谈css里面的一些小知识/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/谈谈css里面的一些小知识/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/谈谈node_env/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/谈谈node_env/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/09/24/实用-css容器垂直水平居中/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/09/24/实用-css容器垂直水平居中/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/10/09/水滴筹笔试题/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/10/09/水滴筹笔试题/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/07/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/07/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/07/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/07/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/07/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/07/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/09/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/09/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/Nginx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/Nginx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Nginx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Nginx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/前端/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/前端/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/习题.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/习题.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,15 +71,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="水滴筹笔试题.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/水滴筹笔试题.md">
+      <file leaf-file-name="习题.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/习题.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="271">
-                <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-                <folding>
-                  <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                </folding>
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="318">
+                <caret line="146" selection-start-line="146" selection-end-line="146" />
               </first_editor>
               <second_editor />
             </state>
@@ -126,8 +172,8 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/几种JS里数组去重方法比较.md" />
         <option value="$PROJECT_DIR$/source/_posts/实用-css容器垂直水平居中.md" />
-        <option value="$PROJECT_DIR$/source/_posts/习题.md" />
         <option value="$PROJECT_DIR$/source/_posts/水滴筹笔试题.md" />
+        <option value="$PROJECT_DIR$/source/_posts/习题.md" />
       </list>
     </option>
   </component>
@@ -141,9 +187,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="1708" />
+    <option name="y" value="92" />
     <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -151,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,7 +226,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,26 +445,28 @@
       <workItem from="1570586502959" duration="16000" />
       <workItem from="1570586521409" duration="235000" />
       <workItem from="1570586759518" duration="48000" />
-      <workItem from="1570586809195" duration="1380000" />
+      <workItem from="1570586809195" duration="2204000" />
+      <workItem from="1570591762306" duration="26000" />
+      <workItem from="1570592651488" duration="1569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107281000" />
+    <option name="totallyTimeSpent" value="109700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="803" extended-state="0" />
+    <frame x="1708" y="92" width="1440" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3297568" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21244635" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21816881" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48441926" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32290184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -434,14 +483,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3297568" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21244635" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21816881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48441926" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.029871978" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -725,15 +774,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/centos搭建rabbitmq（一）.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -745,28 +794,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/Aliyun+Nginx部署网站.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/习题.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-1487" />
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -783,11 +819,23 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/水滴筹笔试题.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="271">
-            <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-            <folding>
-              <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="15">
+            <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/习题.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="318">
+            <caret line="146" selection-start-line="146" selection-end-line="146" />
           </first_editor>
           <second_editor />
         </state>
