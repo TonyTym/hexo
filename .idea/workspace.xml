@@ -2,7 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.deploy_git" beforeDir="false" afterPath="$PROJECT_DIR$/.deploy_git" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Aliyun+Nginx部署网站/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Aliyun+Nginx部署网站/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/H5页面实现直播/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/H5页面实现直播/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Hello-world/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Hello-world/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Html5-ReplaceState实现详情页到列表页的无刷新且回到上次位置/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Html5-ReplaceState实现详情页到列表页的无刷新且回到上次位置/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/JS奇技淫巧/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/JS奇技淫巧/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/JavaScript学习笔记/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/JavaScript学习笔记/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Linux-CentOS-7.2.x下安装mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Linux-CentOS-7.2.x下安装mysql/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Mac下搭安卓模拟器的艰辛之路/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Mac下搭安卓模拟器的艰辛之路/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/Vue-cli快速搭建Vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/Vue-cli快速搭建Vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/centos搭建rabbitmq（一）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/centos搭建rabbitmq（一）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/centos搭建rabbitmq（二）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/centos搭建rabbitmq（二）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/lbz客户端与H5交互sdk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/lbz客户端与H5交互sdk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（一）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（一）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（三）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（三）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（二）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/从0开始搭建日志分析系统（二）/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/全国省市县三级地址联动js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/全国省市县三级地址联动js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/原生JS的debounce和throttle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/原生JS的debounce和throttle/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/微信开发本地调试/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/微信开发本地调试/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/浅谈js中对象的赋值、深拷贝、浅拷贝/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/浅谈js中对象的赋值、深拷贝、浅拷贝/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/让js文件支持cmd、node、script标签方式引用/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/让js文件支持cmd、node、script标签方式引用/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/谈谈css里面的一些小知识/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/谈谈css里面的一些小知识/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/07/18/谈谈node_env/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/07/18/谈谈node_env/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/09/23/几种JS里数组去重方法比较/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/09/23/几种JS里数组去重方法比较/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/09/24/实用-css容器垂直水平居中/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/09/24/实用-css容器垂直水平居中/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/10/09/习题/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/10/09/习题/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/10/09/水滴筹笔试题/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/10/09/水滴筹笔试题/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2019/10/16/字节跳动面试题/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2019/10/16/字节跳动面试题/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/07/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/07/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/07/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/07/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/07/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/07/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/09/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/09/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/10/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/2019/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2019/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/archives/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/CSS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/H5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/H5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/Mac/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/Mac/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/NODE-JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/NODE-JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/Nginx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/Nginx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/VUE-JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/VUE-JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端实用/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端实用/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Aliyun/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Aliyun/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Android/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Android/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/H5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/H5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/IOS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/IOS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/JS/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/JS/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Mac/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Mac/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/NODE/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/NODE/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Navicat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Navicat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Nginx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Nginx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/NodeJS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/NodeJS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/RabbitMQ/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/RabbitMQ/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Vue-cli/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Vue-cli/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/Vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/Vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/amqplib/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/amqplib/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/css/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/hexo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/hexo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/mysql/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/sdk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sdk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/其他/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/其他/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/前端/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/前端/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/垂直居中/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/垂直居中/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/模拟器/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/模拟器/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,12 +104,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="字节跳动面试题.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/字节跳动面试题.md">
+      <file leaf-file-name="flutter插件开发实践.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/flutter插件开发实践.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="606">
-                <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+              <first_editor relative-caret-position="465">
+                <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="61">
+                <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -126,6 +220,7 @@
         <option value="$PROJECT_DIR$/source/_posts/水滴筹笔试题.md" />
         <option value="$PROJECT_DIR$/source/_posts/习题.md" />
         <option value="$PROJECT_DIR$/source/_posts/字节跳动面试题.md" />
+        <option value="$PROJECT_DIR$/source/_posts/flutter插件开发实践.md" />
       </list>
     </option>
   </component>
@@ -138,10 +233,17 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/themes/landscape/package.json" />
+      <path value="$PROJECT_DIR$/themes/next/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -149,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,37 +259,21 @@
               <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
               <item name="hexo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -401,38 +488,73 @@
       <workItem from="1570592651488" duration="1801000" />
       <workItem from="1570698543964" duration="188000" />
       <workItem from="1571110017173" duration="9653000" />
+      <workItem from="1598269003611" duration="3234000" />
+      <workItem from="1598272338081" duration="468000" />
+      <workItem from="1598272819359" duration="966000" />
+      <workItem from="1598273906271" duration="567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119773000" />
+    <option name="totallyTimeSpent" value="125008000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.3297568" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11516452" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.25158563" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32290184" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
+      <window_info id="Structure" order="1" sideWeight="0.50158226" side_tool="true" weight="0.123032905" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.68560106" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3297568" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.11064129" />
+      <window_info id="Structure" order="1" sideWeight="0.50158226" side_tool="true" weight="0.123032905" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1897436" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -443,38 +565,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/Aliyun+Nginx部署网站.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/从0开始搭建日志分析系统（三）.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/从0开始搭建日志分析系统（一）.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/从0开始搭建日志分析系统（二）.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/从0开始搭建日志分析系统（一）.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+    <entry file="file://$PROJECT_DIR$/source/_posts/flutter插件开发实践.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -659,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="120" column="3" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/从0开始搭建日志分析系统（二）.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -705,12 +793,6 @@
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bunyan/lib/bunyan.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -719,61 +801,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Aliyun+Nginx部署网站.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/H5页面实现直播.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/水滴筹笔试题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/H5页面实现直播.md" />
+    <entry file="file://$PROJECT_DIR$/source/_posts/水滴筹笔试题.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/习题.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/字节跳动面试题.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/Aliyun+Nginx部署网站.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/flutter插件开发实践.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="484">
-            <caret line="150" column="9" selection-start-line="150" selection-start-column="9" selection-end-line="150" selection-end-column="9" />
+          <first_editor relative-caret-position="465">
+            <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/字节跳动面试题.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/Linux-CentOS-7.2.x上从0开始搭建自己的hexo博客.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="606">
-            <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+          <first_editor relative-caret-position="61">
+            <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="120" column="3" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
         </state>
       </provider>
     </entry>
