@@ -95,3 +95,6 @@ npm i
 + 2.通过npm i来安装，此时package.json里不是固定的版本，因此就必须保证package-lock.json和node_modules不会同时删除后再install（**实际中很容易这么操作**）。如果这样操作后，会安装最新的包，并且package.json里还是显示的旧版本，会有点莫名其妙。
 
   2.1、当然，你也可以在npm i xxx@xxx之后，手动把package.json里的兼容版本改成固定版本（去掉^），但经验告诉我们，一般不会那么做。
+  
+  
+** 题外话：在过程中，遇到一个问题，就是删除package-lock.json后，再重新npm install生成的package-lock.json并没有自动加入git版本管理（项目里的.gitignore里没有加上)。最后发现是全局把package-lock.json加入gitignore里了，参照：https://cloud.tencent.com/developer/article/1478104 
