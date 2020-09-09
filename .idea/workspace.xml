@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/yarn和npm对比.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/yarn和npm对比.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,19 +26,9 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/yarn和npm对比.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="433">
-                <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+              <first_editor relative-caret-position="281">
+                <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
               </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vue-cli快速搭建Vue.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/Vue-cli快速搭建Vue.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -421,12 +411,12 @@
       <workItem from="1598272819359" duration="966000" />
       <workItem from="1598273906271" duration="993000" />
       <workItem from="1598275210276" duration="858000" />
-      <workItem from="1599570632274" duration="4526000" />
+      <workItem from="1599570632274" duration="5435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130818000" />
+    <option name="totallyTimeSpent" value="131727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,7 +438,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info id="Structure" order="1" sideWeight="0.50158226" side_tool="true" weight="0.123032905" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -774,8 +764,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/yarn和npm对比.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="433">
-            <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <first_editor relative-caret-position="281">
+            <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
           </first_editor>
           <second_editor />
         </state>
