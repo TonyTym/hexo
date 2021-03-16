@@ -99,7 +99,7 @@
 
 测试/线上环境有问题，本地没毛病
 需要用到域名的开发，比如H5里面微信授权登录">
-<meta property="og:updated_time" content="2021-03-16T09:48:19.528Z">
+<meta property="og:updated_time" content="2021-03-16T10:05:44.626Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="proxy代理">
 <meta name="twitter:description" content="在项目开发中，一般情况是可以localhost调试。但是遇到以下的情况，我们只能通过测试环境/正式环境进行调试，为了更好的定位问题，我们需要把测试/正式环境连到自己本地的代码进行断点（也就是代理）。
@@ -334,7 +334,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-03-16T17:48:19+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-03-16T18:05:44+08:00">
                 2021-03-16
               </time>
             
@@ -488,7 +488,14 @@
 <li>hosts配置不支持端口，通过本地启nginx服务进行端口转发</li>
 <li>本地nginx要配置https需要证书，可以用openssl自制证书并信任</li>
 </ol>
-<h3 id="三、手机连电脑进行代理访问"><a href="#三、手机连电脑进行代理访问" class="headerlink" title="三、手机连电脑进行代理访问"></a>三、手机连电脑进行代理访问</h3>
+<h3 id="三、手机连电脑进行代理访问（只支持http）"><a href="#三、手机连电脑进行代理访问（只支持http）" class="headerlink" title="三、手机连电脑进行代理访问（只支持http）"></a>三、手机连电脑进行代理访问（只支持http）</h3><ol>
+<li>电脑安装spy-debugger</li>
+<li>本地开启spy-debugger</li>
+<li>手机绑本地spy-debugger代理：本地ip + 端口 9888</li>
+<li>访问目标域名</li>
+</ol>
+<p><strong> 注：由于上述证书是mac自制的，在mac上可以添加信任，但是手机上没法信任该证书，所以在微信里访问https的时候，会被阻止 </strong></p>
+
       
     </div>
 
@@ -712,7 +719,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#零、之前的解决方案"><span class="nav-number">1.</span> <span class="nav-text">零、之前的解决方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一、较完美的解决方案"><span class="nav-number">2.</span> <span class="nav-text">一、较完美的解决方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、实操"><span class="nav-number">3.</span> <span class="nav-text">二、实操</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、本地配置hosts"><span class="nav-number">3.1.</span> <span class="nav-text">1、本地配置hosts</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、本地安装并启动nginx"><span class="nav-number">3.2.</span> <span class="nav-text">2、本地安装并启动nginx</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、mac自制证书"><span class="nav-number">3.3.</span> <span class="nav-text">3、mac自制证书</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4、信任证书"><span class="nav-number">3.4.</span> <span class="nav-text">4、信任证书</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、手机连电脑进行代理访问"><span class="nav-number">4.</span> <span class="nav-text">三、手机连电脑进行代理访问</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#零、之前的解决方案"><span class="nav-number">1.</span> <span class="nav-text">零、之前的解决方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一、较完美的解决方案"><span class="nav-number">2.</span> <span class="nav-text">一、较完美的解决方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、实操"><span class="nav-number">3.</span> <span class="nav-text">二、实操</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1、本地配置hosts"><span class="nav-number">3.1.</span> <span class="nav-text">1、本地配置hosts</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2、本地安装并启动nginx"><span class="nav-number">3.2.</span> <span class="nav-text">2、本地安装并启动nginx</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3、mac自制证书"><span class="nav-number">3.3.</span> <span class="nav-text">3、mac自制证书</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4、信任证书"><span class="nav-number">3.4.</span> <span class="nav-text">4、信任证书</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、手机连电脑进行代理访问（只支持http）"><span class="nav-number">4.</span> <span class="nav-text">三、手机连电脑进行代理访问（只支持http）</span></a></li></ol></div>
             
 
           </div>
