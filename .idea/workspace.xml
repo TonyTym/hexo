@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7c5124-3584-4085-88dd-1e4f4ef75fbc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/source/_posts/proxy代理.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/proxy代理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,14 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="proxy代理.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="proxy代理.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/proxy代理.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="630">
-                <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+              <first_editor relative-caret-position="162">
+                <caret line="168" selection-start-line="168" selection-end-line="168" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -39,7 +48,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="605">
-                <caret line="96" column="38" lean-forward="true" selection-start-line="94" selection-start-column="2" selection-end-line="96" selection-end-column="38" />
+                <caret line="96" column="38" selection-start-line="94" selection-start-column="2" selection-end-line="96" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,7 +60,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="128">
-                <caret line="100" column="4" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+                <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -153,6 +162,7 @@
         <option value="$PROJECT_DIR$/source/_posts/yarn和npm对比.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/proxy代理.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -437,12 +447,12 @@
       <workItem from="1598273906271" duration="993000" />
       <workItem from="1598275210276" duration="858000" />
       <workItem from="1599570632274" duration="5611000" />
-      <workItem from="1615883254723" duration="5289000" />
+      <workItem from="1615883254723" duration="5676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137192000" />
+    <option name="totallyTimeSpent" value="137579000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,14 +467,14 @@
     <frame x="0" y="25" width="1440" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49841774" weight="0.3883016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49841774" visible="true" weight="0.3883016" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32948717" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948717" />
       <window_info id="Structure" order="1" sideWeight="0.50158226" side_tool="true" weight="0.123032905" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.06275033" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.61148196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -776,9 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/从0开始搭建日志分析系统（三）.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-920">
@@ -801,7 +808,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="128">
-            <caret line="100" column="4" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+            <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
@@ -816,7 +823,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="605">
-            <caret line="96" column="38" lean-forward="true" selection-start-line="94" selection-start-column="2" selection-end-line="96" selection-end-column="38" />
+            <caret line="96" column="38" selection-start-line="94" selection-start-column="2" selection-end-line="96" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>
@@ -825,10 +832,17 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/proxy代理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="630">
-            <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+          <first_editor relative-caret-position="162">
+            <caret line="168" selection-start-line="168" selection-end-line="168" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
